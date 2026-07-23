@@ -1,0 +1,7 @@
+name: find-and-discover
+description: Skills finden, Kontext haushalten — Discovery und Kontext-Diät.
+skills:
+  - find-skills
+  - agent-context-diet
+instruction: |
+  "Finde einen Skill für X" → find-skills; Multi-Step-Tasks mit Kontext-Diät → agent-context-diet.

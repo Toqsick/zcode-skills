@@ -1,0 +1,9 @@
+name: code-review-suite
+description: Code-Review-Workflows — Diff-Review, Review-Best-Practices, MCP-Server-Generator.
+skills:
+  - code-review
+  - code-review-excellence
+  - typescript-mcp-server-generator
+instruction: |
+  Konkreter Diff-Review → code-review; PR/Review-Best-Practices → code-review-excellence;
+  TypeScript MCP-Server generieren → typescript-mcp-server-generator.

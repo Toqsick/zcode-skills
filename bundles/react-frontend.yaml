@@ -1,0 +1,12 @@
+name: react-frontend
+description: React- und Frontend-Engineering — Performance, Builds, Native, TypeScript.
+skills:
+  - vercel-react-best-practices
+  - react-vite-best-practices
+  - react-native-best-practices
+  - nextjs-turbopack
+  - typescript-expert
+instruction: |
+  Wähle das Sub-Skill passend zur Aufgabe: Web/Next.js → vercel-react-best-practices;
+  Vite-basiert → react-vite-best-practices; Mobile → react-native-best-practices;
+  Next.js 16+/Turbopack → nextjs-turbopack; TypeScript-Fragen → typescript-expert.

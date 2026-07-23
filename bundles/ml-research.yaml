@@ -1,0 +1,9 @@
+name: ml-research
+description: "ML/AI-Research-Tasks — Audio-Synthese (AudioCraft), Vision-Segmentation (SAM), Experiment-Tracking (W&B)."
+skills:
+  - audiocraft
+  - segment-anything
+  - weights-and-biases
+instruction: |
+  Du arbeitest an ML/AI-Research-Tasks. Lade die unten gelisteten Skills je nach Aufgabe.
+  Verwende /ml-research um alle drei auf einmal einzubinden.

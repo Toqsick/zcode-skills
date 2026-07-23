@@ -1,0 +1,10 @@
+name: backend-frameworks
+description: Backend-Frameworks — FastAPI, .NET-Upgrade, Postgres-Review.
+skills:
+  - fastapi
+  - fastapi-python
+  - dotnet-upgrade
+  - postgresql-code-review
+instruction: |
+  FastAPI generell → fastapi; FastAPI expert/async DB → fastapi-python;
+  .NET Framework Upgrade → dotnet-upgrade; Postgres-spezifisches Review → postgresql-code-review.

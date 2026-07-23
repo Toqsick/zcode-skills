@@ -1,0 +1,10 @@
+name: testing-strategies
+description: Test-Strategien über Sprachen und Test-Typen — pytest, Go test, Playwright, QA.
+skills:
+  - python-testing-patterns
+  - golang-testing
+  - playwright-generate-test
+  - dogfood
+instruction: |
+  Python/pytest → python-testing-patterns; Go → golang-testing;
+  Browser/E2E-Test → playwright-generate-test; explorative Web-App-QA → dogfood.

@@ -1,0 +1,279 @@
+{
+  "version": 3,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "eb6a23305aea6e340d14b9de3766e721f9f4861b",
+      "installedAt": "2026-07-05T21:48:17.430Z",
+      "updatedAt": "2026-07-10T09:29:05.276Z"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "skillFolderHash": "343db72180d05814949fef7d46be96b5c6ee86b3",
+      "installedAt": "2026-07-11T06:05:30.819Z",
+      "updatedAt": "2026-07-11T06:05:30.819Z"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "skillFolderHash": "0d5b74a14bdf3ebcd64f352d06376a2ef05ed296",
+      "pluginName": "example-skills",
+      "installedAt": "2026-07-11T06:05:52.615Z",
+      "updatedAt": "2026-07-11T06:05:52.615Z"
+    },
+    "code-review": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/code-review/SKILL.md",
+      "skillFolderHash": "9df6fdac9c49f20944411ee45e1582e718d9a657",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-11T06:05:54.377Z",
+      "updatedAt": "2026-07-11T06:05:54.377Z"
+    },
+    "golang-testing": {
+      "source": "samber/cc-skills-golang",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/samber/cc-skills-golang.git",
+      "skillPath": "skills/golang-testing/SKILL.md",
+      "skillFolderHash": "2f7863fa6c0337b44d0c89c49e219289951df05f",
+      "installedAt": "2026-07-11T06:05:56.235Z",
+      "updatedAt": "2026-07-11T06:05:56.235Z"
+    },
+    "python-testing-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-testing-patterns/SKILL.md",
+      "skillFolderHash": "639d303a1187fe64e2538522ea25c5b8d3321763",
+      "installedAt": "2026-07-11T06:05:58.327Z",
+      "updatedAt": "2026-07-11T06:05:58.327Z"
+    },
+    "code-review-excellence": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/developer-essentials/skills/code-review-excellence/SKILL.md",
+      "skillFolderHash": "01df909b77da6e637490582b2899447eed1786bd",
+      "installedAt": "2026-07-11T06:06:13.737Z",
+      "updatedAt": "2026-07-11T06:06:13.737Z"
+    },
+    "tailwind-css-patterns": {
+      "source": "giuseppe-trisciuoglio/developer-kit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/giuseppe-trisciuoglio/developer-kit.git",
+      "skillPath": "plugins/developer-kit-typescript/skills/tailwind-css-patterns/SKILL.md",
+      "skillFolderHash": "577fb9d8370f939395ce3b6783d44b828fba91dd",
+      "installedAt": "2026-07-11T06:06:17.743Z",
+      "updatedAt": "2026-07-11T06:06:17.743Z"
+    },
+    "typescript-expert": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/sickn33/antigravity-awesome-skills.git",
+      "skillPath": "skills/typescript-expert/SKILL.md",
+      "skillFolderHash": "653b9795fb6a9e1477b8a5a2d857ba6a36544fa7",
+      "installedAt": "2026-07-11T06:06:27.378Z",
+      "updatedAt": "2026-07-11T06:06:27.378Z"
+    },
+    "postgresql-code-review": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/postgresql-code-review/SKILL.md",
+      "skillFolderHash": "5e41d23340dfe6988fc87a727083d1cd30bc1b1c",
+      "installedAt": "2026-07-11T06:06:36.575Z",
+      "updatedAt": "2026-07-11T06:06:36.575Z"
+    },
+    "git-workflow-and-versioning": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/git-workflow-and-versioning/SKILL.md",
+      "skillFolderHash": "6c54b67dd522883fc69013535c7cf35b8cdb8930",
+      "installedAt": "2026-07-11T06:06:39.581Z",
+      "updatedAt": "2026-07-11T06:06:39.581Z"
+    },
+    "nextjs-turbopack": {
+      "source": "affaan-m/everything-claude-code",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/affaan-m/everything-claude-code.git",
+      "skillPath": "skills/nextjs-turbopack/SKILL.md",
+      "skillFolderHash": "1ea61720f20372d50fd64844e4783a9cf9c04118",
+      "installedAt": "2026-07-11T06:06:44.515Z",
+      "updatedAt": "2026-07-11T06:06:44.515Z"
+    },
+    "pdf": {
+      "source": "openai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/openai/skills.git",
+      "skillPath": "skills/.curated/pdf/SKILL.md",
+      "skillFolderHash": "4cffaac4541278a5b142f9773e8a83ccbabc9231",
+      "installedAt": "2026-07-11T06:06:46.501Z",
+      "updatedAt": "2026-07-11T06:06:46.501Z"
+    },
+    "accessibility-review": {
+      "source": "anthropics/knowledge-work-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/knowledge-work-plugins.git",
+      "skillPath": "design/skills/accessibility-review/SKILL.md",
+      "skillFolderHash": "f85ccda1cc84ca38ffb477d442d57b96c6447869",
+      "installedAt": "2026-07-11T06:07:01.570Z",
+      "updatedAt": "2026-07-11T06:07:01.570Z"
+    },
+    "typescript-mcp-server-generator": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/typescript-mcp-server-generator/SKILL.md",
+      "skillFolderHash": "946d7e1dd613c9c371d7022bdb774f0170b86c75",
+      "installedAt": "2026-07-11T06:07:20.097Z",
+      "updatedAt": "2026-07-11T06:07:20.097Z"
+    },
+    "design-review": {
+      "source": "julianoczkowski/designer-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/julianoczkowski/designer-skills.git",
+      "skillPath": "design-review/SKILL.md",
+      "skillFolderHash": "323a146fd2757b75c57737f843418a23c0b32e08",
+      "pluginName": "designer-skills",
+      "installedAt": "2026-07-11T06:07:22.169Z",
+      "updatedAt": "2026-07-11T06:07:22.169Z"
+    },
+    "tailwind-4-docs": {
+      "source": "lombiq/tailwind-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/lombiq/tailwind-agent-skills.git",
+      "skillPath": "skills/tailwind-4-docs/SKILL.md",
+      "skillFolderHash": "3cf001ccaeb91f8e759ff127d1180a53567d1f67",
+      "installedAt": "2026-07-11T06:07:24.161Z",
+      "updatedAt": "2026-07-11T06:07:24.161Z"
+    },
+    "react-vite-best-practices": {
+      "source": "asyrafhussin/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/asyrafhussin/agent-skills.git",
+      "skillPath": "skills/react-vite-best-practices/SKILL.md",
+      "skillFolderHash": "db36a72998cf261489eea59c5a4a48a958dd1316",
+      "installedAt": "2026-07-11T06:07:26.724Z",
+      "updatedAt": "2026-07-11T06:07:26.724Z"
+    },
+    "running-design-reviews": {
+      "source": "refoundai/lenny-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/refoundai/lenny-skills.git",
+      "skillPath": "skills/running-design-reviews/SKILL.md",
+      "skillFolderHash": "4c64b17608baae08f8050c6cf1f859b51e775767",
+      "installedAt": "2026-07-11T06:07:29.512Z",
+      "updatedAt": "2026-07-11T06:07:29.512Z"
+    },
+    "react-native-best-practices": {
+      "source": "callstackincubator/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/callstackincubator/agent-skills.git",
+      "skillPath": "skills/react-native-best-practices/SKILL.md",
+      "skillFolderHash": "e4ef589376ff8df6f59a48b96e8da96e7fcf185c",
+      "pluginName": "react-native-best-practices",
+      "installedAt": "2026-07-11T06:07:32.752Z",
+      "updatedAt": "2026-07-11T06:07:32.752Z"
+    },
+    "playwright-generate-test": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/playwright-generate-test/SKILL.md",
+      "skillFolderHash": "80b315fa5ec450946b5eb78c19fbd989dff33b11",
+      "installedAt": "2026-07-11T06:07:54.179Z",
+      "updatedAt": "2026-07-11T06:07:54.179Z"
+    },
+    "fastapi-python": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mindrally/skills.git",
+      "skillPath": "fastapi-python/SKILL.md",
+      "skillFolderHash": "e56436295fccaae0044ec74983246e25e3e4d900",
+      "installedAt": "2026-07-11T06:35:52.827Z",
+      "updatedAt": "2026-07-11T06:35:52.827Z"
+    },
+    "fastapi": {
+      "source": "fastapi/fastapi",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fastapi/fastapi.git",
+      "skillPath": "fastapi/.agents/skills/fastapi/SKILL.md",
+      "skillFolderHash": "a3a558959c169f0766fba515c08bcee1870024ed",
+      "installedAt": "2026-07-11T06:35:57.011Z",
+      "updatedAt": "2026-07-11T06:35:57.011Z"
+    },
+    "obsidian-markdown": {
+      "source": "kepano/obsidian-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/kepano/obsidian-skills.git",
+      "skillPath": "skills/obsidian-markdown/SKILL.md",
+      "skillFolderHash": "4723197c6dc59abc29819da87863b1ac20b96095",
+      "installedAt": "2026-07-11T06:35:58.628Z",
+      "updatedAt": "2026-07-11T06:35:58.628Z"
+    },
+    "obsidian-cli": {
+      "source": "kepano/obsidian-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/kepano/obsidian-skills.git",
+      "skillPath": "skills/obsidian-cli/SKILL.md",
+      "skillFolderHash": "96254a554e480359de7b685571876f2e7f9ba57d",
+      "installedAt": "2026-07-11T06:36:00.193Z",
+      "updatedAt": "2026-07-11T06:36:00.193Z"
+    },
+    "obsidian-bases": {
+      "source": "kepano/obsidian-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/kepano/obsidian-skills.git",
+      "skillPath": "skills/obsidian-bases/SKILL.md",
+      "skillFolderHash": "f3330f27de4d7907ead57d0f48672f4d3280bb77",
+      "installedAt": "2026-07-11T06:36:01.809Z",
+      "updatedAt": "2026-07-11T06:36:01.809Z"
+    },
+    "dotnet-upgrade": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/dotnet-upgrade/SKILL.md",
+      "skillFolderHash": "3a6422fe5e364dc0851d575213603efee9b3986a",
+      "installedAt": "2026-07-11T07:24:45.894Z",
+      "updatedAt": "2026-07-11T07:24:45.894Z"
+    },
+    "mmx-cli": {
+      "source": "MiniMax-AI/cli",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/MiniMax-AI/cli.git",
+      "skillPath": "skill/SKILL.md",
+      "skillFolderHash": "479b30a3aaada4daae4a2307207befdfe50c8d32",
+      "installedAt": "2026-07-21T06:51:21.078Z",
+      "updatedAt": "2026-07-21T06:51:21.078Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed"
+  ]
+}

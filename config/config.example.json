@@ -1,0 +1,49 @@
+{
+  "_comment": "Template for ~/.zcode/cli/config.json. Real API keys live in env vars, NOT in this file. Copy to config.json and the runtime resolves the placeholders via env, or substitute real values locally (config.json is gitignored).",
+  "_canonical_fields_note": "ZCode's MCP schema is STRICT: use 'env' (not 'environment'), 'http' (not 'remote'/'sse'), string 'command' (not array). Unknown keys per server cause the server to be DROPPED. See mcp-schema.md.",
+  "mcp": {
+    "servers": {
+      "zai-mcp-server": {
+        "type": "stdio",
+        "command": "npx",
+        "args": ["-y", "@z_ai/mcp-server"],
+        "env": {
+          "Z_AI_MODE": "ZAI",
+          "Z_AI_API_KEY": "${Z_AI_API_KEY}"
+        }
+      },
+      "web-search-prime": {
+        "type": "http",
+        "url": "https://api.z.ai/api/mcp/web_search_prime/mcp",
+        "headers": {
+          "Authorization": "Bearer ${Z_AI_API_KEY}"
+        }
+      },
+      "web-reader": {
+        "type": "http",
+        "url": "https://api.z.ai/api/mcp/web_reader/mcp",
+        "headers": {
+          "Authorization": "Bearer ${Z_AI_API_KEY}"
+        }
+      },
+      "zread": {
+        "type": "http",
+        "url": "https://api.z.ai/api/mcp/zread/mcp",
+        "headers": {
+          "Authorization": "Bearer ${Z_AI_API_KEY}"
+        }
+      },
+      "hermes": {
+        "type": "http",
+        "url": "http://127.0.0.1:8643/mcp"
+      }
+    }
+  },
+  "plugins": {
+    "enabledPlugins": {
+      "cloudbase-skills@zcode-plugins-official": true,
+      "example-plugin@zcode-plugins-official": false,
+      "android-emulator@zcode-plugins-official": false
+    }
+  }
+}

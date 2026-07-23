@@ -1,0 +1,16 @@
+# Real configs with secrets — never upload. Use config/config.example.json as the template.
+config.json
+**/config.local.json
+**/secrets.*
+.env
+.env.*
+
+# Ephemeral / generated artifacts
+*.log
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local-only skill bodies — registry.json references them by absolute path instead
+skills/*/SKILL.local.md

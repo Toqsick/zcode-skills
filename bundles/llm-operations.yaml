@@ -1,0 +1,9 @@
+name: llm-operations
+description: LLM-Runtimes und Evaluation — vLLM, llama.cpp, lm-eval-harness.
+skills:
+  - serving-llms-vllm
+  - llama-cpp
+  - evaluating-llms-harness
+instruction: |
+  High-throughput Serving → serving-llms-vllm; lokale GGUF-Inferenz → llama-cpp;
+  Benchmarking (MMLU/GSM8K) → evaluating-llms-harness.

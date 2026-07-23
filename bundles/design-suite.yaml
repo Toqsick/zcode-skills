@@ -1,0 +1,12 @@
+name: design-suite
+description: Design-Workflow — Critique, Review, Accessibility, Frontend-Ästhetik, Review-Moderation.
+skills:
+  - frontend-design
+  - design-review
+  - running-design-reviews
+  - accessibility-review
+  - web-design-guidelines
+instruction: |
+  Wähle das Sub-Skill: Neue UI → frontend-design; Review/Kritik → design-review;
+  Review-Prozess moderieren → running-design-reviews; WCAG/a11y → accessibility-review;
+  Vercel Web Interface Guidelines → web-design-guidelines.

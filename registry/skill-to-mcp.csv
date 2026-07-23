@@ -1,0 +1,32 @@
+skill_name,mcp_server,note
+1password,1password,1Password MCP
+agentmail,agentmail,AgentMail API
+airtable,airtable,Airtable API
+arxiv,web-search-prime,arxiv via web search
+blender-mcp,blender,Blender MCP
+feishu-webhook,feishu,Feishu/Lark webhook
+findmy,findmy,Apple FindMy
+firecrawl-web,firecrawl,Firecrawl MCP
+github-auth,github,GitHub MCP / gh CLI fallback
+github-branch-inventory,github,GitHub MCP / gh CLI fallback
+github-code-review,github,GitHub MCP / gh CLI fallback
+github-grayhack-workflow,github,GitHub MCP / gh CLI fallback
+github-issues,github,GitHub MCP / gh CLI fallback
+github-portfolio-launch,github,GitHub MCP / gh CLI fallback
+github-pr-merge-readiness,github,GitHub MCP / gh CLI fallback
+github-pr-workflow,github,GitHub MCP / gh CLI fallback
+github-repo-management,github,GitHub MCP / gh CLI fallback
+github-sweep-orchestration,github,GitHub MCP / gh CLI fallback
+github-workflow,github,GitHub MCP / gh CLI fallback
+google-workspace,google-workspace,Google Workspace API
+himalaya,himalaya,himalaya CLI IMAP
+imessage,imessage,macOS iMessage bridge
+linear,linear,Linear GraphQL API; requires LINEAR_API_KEY
+maps,maps,Google Maps API
+mmx-cli,mmx,MMX CLI
+notebooklm-bridge,notebooklm,NotebookLM MCP
+notion,notion,Notion API
+openhue,openhue,Philips Hue API
+spotify,spotify,Spotify API
+touchdesigner-mcp,touchdesigner,TouchDesigner MCP
+web_search,web-search-prime,web_search_prime MCP

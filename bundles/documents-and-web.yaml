@@ -1,0 +1,9 @@
+name: documents-and-web
+description: Dokument- und Web-Tasks — PDF, Web-Scraping, große Kontextmengen.
+skills:
+  - pdf
+  - firecrawl-web
+  - context-mode
+instruction: |
+  PDF erstellen/extrahieren → pdf; URL scrape/screenshot → firecrawl-web;
+  Großer Output / Logs parsen → context-mode.

@@ -1,0 +1,9 @@
+name: obsidian
+description: Obsidian-Tasks — Markdown, Bases, CLI.
+skills:
+  - obsidian-markdown
+  - obsidian-bases
+  - obsidian-cli
+instruction: |
+  Obsidian Flavored Markdown (wikilinks, callouts) → obsidian-markdown;
+  Bases (.base) Files → obsidian-bases; Obsidian-CLI-Befehle → obsidian-cli.

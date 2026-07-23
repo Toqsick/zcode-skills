@@ -1,0 +1,7 @@
+name: tailwind
+description: Tailwind CSS — v4-Docs und Pattern-Bibliothek.
+skills:
+  - tailwind-4-docs
+  - tailwind-css-patterns
+instruction: |
+  Tailwind v4 Migrationsfragen → tailwind-4-docs; konkrete Patterns/Utilities → tailwind-css-patterns.

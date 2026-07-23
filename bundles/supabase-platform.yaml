@@ -1,0 +1,7 @@
+name: supabase-platform
+description: "Supabase- und Postgres-Tasks — DB, Auth, Realtime, Storage, Edge Functions, Postgres-Performance."
+skills:
+  - supabase
+  - supabase-postgres-best-practices
+instruction: |
+  Du arbeitest an Supabase- oder Postgres-Themen. Beide Skills laden.

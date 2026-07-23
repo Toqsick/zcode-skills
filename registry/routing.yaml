@@ -1,0 +1,63 @@
+# Routing map — intent buckets -> candidate skills -> MCP server -> tool hints.
+# GENERATED 2026-07-23 from live skill frontmatter (~/.zcode/skills).
+# Consumed by skills/SKILL.md (skill-mcp-router). Do not hand-edit the
+# candidate lists; regenerate via scripts/generate_registry.py.
+
+meta_penalty:
+  description: >
+    Skills in these buckets dominate keyword matches for 'plan/orchestrate/
+    route/agent' and MUST be de-prioritized unless the intent is explicitly
+    meta (i.e. the user is asking about running the agent system itself).
+  buckets: ['agents/orchestration', 'zcode/tooling-meta']
+  count: 132
+
+name_dir_mismatches:
+  description: >
+    Router MUST match on the declared frontmatter 'name:', not the directory
+    name. These entries differ; a dir-name match will miss the skill.
+  pitfalls: "multi-agent-pitfalls-cheatsheet"
+  media: "animal-podcast"
+  navigator: "skill-navigator"
+  integration: "hermes-memory"
+  image: "image-remix"
+  audio: "voice-clone"
+  video: "youtube-creator"
+  creative-ideation: "ideation"
+  lm-evaluation-harness: "evaluating-llms-harness"
+  segment-anything: "segment-anything-model"
+  vllm: "serving-llms-vllm"
+  excel-xlsx: "Excel / XLSX"
+  data-analysis: "Data Analysis"
+
+intent_buckets:
+  CODE_GENERATION:
+    candidate_domains: ['backend/database', 'web/frontend', 'zcode/tooling-meta']
+    sample_candidates: ['Data Analysis', 'antigravity-cli', 'app-builder', 'axolotl', 'bioinformatics', 'classify-test-failures', 'claude-coding-specialist', 'code-modernization', '3d-web-dev-specialist', 'browser-setup-guides', 'canvas', 'debugging-hermes-tui-commands', 'future-mirror', 'hermes-desktop-plugins', 'landing-page-builder', 'node-inspect-debugger', 'architecture-diagram', 'ascii-art', 'audio-instructions', 'beat-sync-editor']
+  DATA_RETRIEVAL:
+    candidate_domains: ['backend/database', 'research/web', 'productivity/notes']
+    sample_candidates: ['Data Analysis', 'antigravity-cli', 'app-builder', 'axolotl', 'bioinformatics', 'classify-test-failures', 'claude-coding-specialist', 'code-modernization', 'perplexity-followup-plan', 'research-paper-generator', 'research-tools', 'web-scraper', 'web_search', 'apple-notes', 'apple-reminders', 'custom-aware-research-prompt', 'deep-research-consultant', 'imessage', 'industry-research-report-writer', 'obsidian-canvas-factory']
+  ANALYSIS:
+    candidate_domains: ['research/web', 'zcode/tooling-meta', 'AI/ML/LLM', 'security/audit']
+    sample_candidates: ['perplexity-followup-plan', 'research-paper-generator', 'research-tools', 'web-scraper', 'web_search', 'architecture-diagram', 'ascii-art', 'audio-instructions', 'beat-sync-editor', 'blender-mcp', 'claude-code-command-creator', 'claude-code-provider-profiles', 'computer-use-game-reconnaissance', '1password', '3-statement-model', 'ai-text-humanizer', 'ceo-assistant', 'local-ai-security-hygiene', 'openclaw-assistant', 'plan-glm']
+  COMMUNICATION:
+    candidate_domains: ['communication', 'content/media', 'writing/docs']
+    sample_candidates: ['hermes-gateway', 'inline-gate-fallback', 'maps', 'ai-os-architect', 'ai-video-creator', 'airtable', 'animal-podcast', 'anime-design', 'anime-style-forge', 'arxiv', 'ascii-video', 'docx', 'job-hunter', 'nano-pdf', 'user-profile-memory', 'xlsx']
+  INFRASTRUCTURE:
+    candidate_domains: ['devops/infra', 'backend/database']
+    sample_candidates: ['ci-non-english-config', 'claude-gaming-optimizer', 'claude-security-auditor', 'computer-use', 'cp77-modding-linux', 'directory-structure-audit', 'docker-install-ubuntu', 'dogfood', 'Data Analysis', 'antigravity-cli', 'app-builder', 'axolotl', 'bioinformatics', 'classify-test-failures', 'claude-coding-specialist', 'code-modernization']
+  RESEARCH:
+    candidate_domains: ['research/web', 'AI/ML/LLM']
+    sample_candidates: ['perplexity-followup-plan', 'research-paper-generator', 'research-tools', 'web-scraper', 'web_search', '1password', '3-statement-model', 'ai-text-humanizer', 'ceo-assistant', 'local-ai-security-hygiene', 'openclaw-assistant', 'plan-glm', 'tech-fact-check']
+
+mcp_servers_configured:
+  description: The 5 servers in ~/.zcode/cli/config.json (canonical fields).
+  - zai-mcp-server   # stdio, npx -y @z_ai/mcp-server, needs Z_AI_API_KEY
+  - web-search-prime # http, api.z.ai
+  - web-reader       # http, api.z.ai
+  - zread            # http, api.z.ai
+  - hermes           # http, 127.0.0.1:8643 (local)
+
+see_also:
+  - registry.json        # full per-skill manifest with source_root + domain
+  - skill-to-mcp.csv     # static skill->server overrides (~33 identity-coupled)
+  - bundles/*.yaml       # 12 pre-assembled skill bundles (.hermes/skill-bundles)
