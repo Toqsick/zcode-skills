@@ -23,7 +23,6 @@ himalaya,himalaya,himalaya CLI IMAP
 imessage,imessage,macOS iMessage bridge
 linear,linear,Linear GraphQL API; requires LINEAR_API_KEY
 maps,maps,Google Maps API
-mmx-cli,mmx,MMX CLI
 notebooklm-bridge,notebooklm,NotebookLM MCP
 notion,notion,Notion API
 openhue,openhue,Philips Hue API

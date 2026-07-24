@@ -1,13 +1,13 @@
 {
   "_generated": "2026-07-23",
   "_source": "~/.zcode/skills (symlink farm, 412 entries)",
-  "_count": 412,
+  "_count": 410,
   "_domain_counts": {
     "agents/orchestration": 98,
     "zcode/tooling-meta": 34,
-    "content/media": 106,
+    "content/media": 105,
     "web/frontend": 13,
-    "backend/database": 53,
+    "backend/database": 52,
     "devops/infra": 40,
     "AI/ML/LLM": 8,
     "productivity/notes": 15,
@@ -18,7 +18,7 @@
     "writing/docs": 5,
     "other": 20
   },
-  "_mcp_coupled_count": 31,
+  "_mcp_coupled_count": 30,
   "skills": [
     {
       "name": "1password",
@@ -1252,18 +1252,6 @@
       "domain": "content/media",
       "is_meta": false,
       "description": "Soundtrack suites — character themes, OP/ED, BGM. Focus on leitmotif, tension/release, scene support. Use for anime, film, game score. Triggers on \"soundtrack\", \"anime OP\", \"BGM\", \"character theme\", \"leitmotif\".",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "drucker-experte",
-      "dir": "drucker-experte",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/drucker-experte/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
-      "description": "3D-Druck-Experte für Bastis Bambu Lab A1 mini (0.4mm Düse, Bett 180x180x180). Triggers on STL, Bambu Lab, 3D-Druck, Slicer-Setting, Druckzeit, Mesh-Repair, G-Code.",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -2673,18 +2661,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "mmx-cli",
-      "dir": "mmx-cli",
-      "source_root": "~/.agents",
-      "real_path": "~/.agents/skills/mmx-cli/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Use mmx to generate text, images, video, speech, and music via the MiniMax AI platform. Use when the user wants to create media content, chat with MiniMax models, perform web search, or manage MiniMax API resources from the terminal.",
-      "mcp_server": "mmx",
-      "mcp_note": "MMX CLI",
-      "name_dir_mismatch": null
-    },
-    {
       "name": "mnemosyne-memory-provider",
       "dir": "mnemosyne-memory-provider",
       "source_root": "~/.claude",
@@ -3573,18 +3549,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "second-brain",
-      "dir": "second-brain",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/second-brain/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Bastis Obsidian Vault als Domän-Wissensbank nutzen. Verwenden bei Fragen zu Bastis Wissen/Notizen (\"was weiß ich über X\", \"steht dazu was im Vault?\"), zum Nachschlagen von System-/Projekt-Kontext (Gaming-Performance, KI-Architektur, Security, Yuno/He",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "security-attestation-patterns",
       "dir": "security-attestation-patterns",
       "source_root": "~/.claude",
@@ -3832,6 +3796,18 @@
       "domain": "zcode/tooling-meta",
       "is_meta": true,
       "description": "Use when scanning, slimming, deduplicating, or health-checking skill libraries.",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "skill-mcp-router",
+      "dir": "skill-mcp-router",
+      "source_root": "unknown",
+      "real_path": "~/ZCodeProject/zcode-skills/skills/SKILL.md",
+      "domain": "agents/orchestration",
+      "is_meta": true,
+      "description": "Skill + MCP routing agent for the local 412-skill library. Use when a task needs the right skill AND the right MCP server resolved together — converts a raw request into a (skill, MCP server, filtered tools) triple with minimal token use via lazy too",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4509,6 +4485,18 @@
       "name_dir_mismatch": null
     },
     {
+      "name": "venice-media",
+      "dir": "venice-media",
+      "source_root": "~/.claude",
+      "real_path": "~/.claude/skills/venice-media/SKILL.md",
+      "domain": "agents/orchestration",
+      "is_meta": true,
+      "description": "Use the Venice API from the current AI CLI to generate or edit images, create or retrieve videos, synthesize TTS, generate music/audio, upscale/remove backgrounds, and transcribe audio without replacing the current host agent.",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
       "name": "verify-before-fix",
       "dir": "verify-before-fix",
       "source_root": "~/.claude",
@@ -4876,18 +4864,6 @@
       "domain": "other",
       "is_meta": false,
       "description": "Use when user asks to interact with a Yuanbao group, @mention a member, query group information or membership, or send a Yuanbao direct message. NOT for other messaging gateways or the generic `send_message` path. Uses the gateway’s automatic text de",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "yuno-cleaner",
-      "dir": "yuno-cleaner",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/yuno-cleaner/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Use when user asks to run Yuno Cleaner for a Linux scan, cleanup, status check, scheduled cleanup, JSON report, Telegram notification, or handoff. NOT for destructive cleanup without the tool’s safety flow or app-specific uninstall work. Provides the",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null

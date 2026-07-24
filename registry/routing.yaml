@@ -50,12 +50,13 @@ intent_buckets:
     sample_candidates: ['perplexity-followup-plan', 'research-paper-generator', 'research-tools', 'web-scraper', 'web_search', '1password', '3-statement-model', 'ai-text-humanizer', 'ceo-assistant', 'local-ai-security-hygiene', 'openclaw-assistant', 'plan-glm', 'tech-fact-check']
 
 mcp_servers_configured:
-  description: The 5 servers in ~/.zcode/cli/config.json (canonical fields).
+  description: The 6 servers in ~/.zcode/cli/config.json (canonical fields).
   - zai-mcp-server   # stdio, npx -y @z_ai/mcp-server, needs Z_AI_API_KEY
   - web-search-prime # http, api.z.ai
   - web-reader       # http, api.z.ai
   - zread            # http, api.z.ai
   - hermes           # http, 127.0.0.1:8643 (local)
+  - github           # stdio, Docker toqsick/github-mcp-server:develop; host PAT
 
 see_also:
   - registry.json        # full per-skill manifest with source_root + domain

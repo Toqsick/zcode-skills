@@ -45,9 +45,9 @@ magic. At the start of a routed task, load:
 
 | Placeholder | Source | What it provides |
 |---|---|---|
-| `{{agentSkills}}` | `registry/registry.json` | all 412 skills: `name`, `dir`, `source_root`, `domain`, `is_meta`, `mcp_server`, `name_dir_mismatch` |
-| `{{serverInstructions}}` | `config/config.example.json` | the 5 configured MCP servers (canonical schema) + their transport |
-| `{{workspaceRoot}}` | the session's CWD | typically `/home/bratan/ZCodeProject` |
+| `{{agentSkills}}` | `registry/registry.json` | indexed skills: `name`, `dir`, `source_root`, `domain`, `is_meta`, `mcp_server`, `name_dir_mismatch` |
+| `{{serverInstructions}}` | `config/config.example.json` | the six configured MCP servers (canonical schema) + their transport |
+| `{{workspaceRoot}}` | the session's CWD | never commit or assume a fixed workstation path |
 | `{{currentDate}}` | system date | for recency-sensitive routing |
 
 Static coupling table (the ~31 skills where matching the name IS the server
@@ -93,11 +93,11 @@ Resolve the server in this order:
 3. **None** — many skills (~380) are pure procedure with no external resource.
    Emit `[MCP_SERVER: none]`.
 
-Note the **live MCP layer** (`config.example.json`) has only 5 servers:
-`zai-mcp-server`, `web-search-prime`, `web-reader`, `zread`, `hermes`. Any
-other server name (linear, notion, supabase, github-MCP, blender…) is
-configured elsewhere or falls back to a native CLI — confirm availability
-before promising it.
+Note the **live MCP layer** (`config.example.json`) has six documented servers:
+`zai-mcp-server`, `web-search-prime`, `web-reader`, `zread`, `hermes`, and the
+optional `github` Docker MCP. Any other server name (linear, notion, supabase,
+blender…) is configured elsewhere or falls back to a native CLI — confirm
+availability before promising it.
 
 Emit `[MCP_SERVER: <name>]`.
 
