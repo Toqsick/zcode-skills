@@ -14,8 +14,9 @@ when_to_use: >
   upfront, or (c) you are operating in the Skill Routing Agent role and need
   the runtime data sources. Do NOT use for pure in-skill procedure with no
   external tool, or for choosing between models (use task-weight-routing).
-version: 1.0.0
-author: Toqsick
+version: 1.2.0
+platforms: [zcode]
+author: Basti
 license: MIT
 metadata:
   role: routing-agent
@@ -25,7 +26,6 @@ metadata:
     skill_to_mcp: registry/skill-to-mcp.csv
     mcp_config_template: config/config.example.json
 ---
-
 # Skill + MCP Router
 
 A routing layer that sits in front of the skill library and the MCP servers.
