@@ -6,7 +6,8 @@ skill library snapshot. Created 2026-07-23.
 This repo does **not** contain raw skill bodies — those live locally in
 `~/.claude/skills/`, `~/.hermes/skills/`, `~/.agents/skills/`, and
 `~/.config/opencode/skills/`, surfaced to ZCode through the
-`~/.zcode/skills/` symlink farm (469 entries). Instead, this repo holds the
+`~/.zcode/skills/` symlink farm (370 entries as of 2026-09-17 — recount live:
+`find ~/.zcode/skills -mindepth 1 -maxdepth 1 | wc -l`). Instead, this repo holds the
 **metadata, routing logic, and config templates** needed to reproduce and
 route that library.
 
