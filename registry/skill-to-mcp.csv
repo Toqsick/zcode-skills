@@ -1,6 +1,5 @@
 skill_name,mcp_server,note
 agentmail,agentmail,AgentMail API
-arxiv,web-search-prime,arxiv via web search
 blender-mcp,blender,Blender MCP
 firecrawl-web,firecrawl,Firecrawl MCP
 github-auth,github,GitHub MCP / gh CLI fallback
@@ -16,5 +15,5 @@ github-sweep-orchestration,github,GitHub MCP / gh CLI fallback
 github-workflow,github,GitHub MCP / gh CLI fallback
 google-workspace,google-workspace,Google Workspace API
 himalaya,himalaya,himalaya CLI IMAP
+notebooklm-bridge,notebooklm,NotebookLM MCP
 touchdesigner-mcp,touchdesigner,TouchDesigner MCP
-web_search,web-search-prime,web_search_prime MCP

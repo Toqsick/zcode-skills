@@ -9,7 +9,7 @@ meta_penalty:
     route/agent' and MUST be de-prioritized unless the intent is explicitly
     meta (i.e. the user is asking about running the agent system itself).
   buckets: ['agents/orchestration', 'zcode/tooling-meta']
-  count: 150
+  count: 134
 
 name_dir_mismatches:
   description: >
@@ -32,22 +32,22 @@ name_dir_mismatches:
 intent_buckets:
   CODE_GENERATION:
     candidate_domains: ['backend/database', 'web/frontend', 'zcode/tooling-meta']
-    sample_candidates: ['Data Analysis', 'antigravity-cli', 'axolotl', 'classify-test-failures', 'claude-coding-specialist', 'code-modernization', 'code-review', 'code-security', '3d-web-dev-specialist', 'browser-setup-guides', 'canvas', 'debugging-hermes-tui-commands', 'fetching-blocked-web-downloads', 'future-mirror', 'hermes-desktop-plugins', 'landing-page-builder', 'app-builder', 'architecture-diagram', 'ascii-art', 'audio-instructions']
+    sample_candidates: ['Data Analysis', 'antigravity-cli', 'axolotl', 'bash-script-audit', 'classify-test-failures', 'code-modernization', 'code-review', 'code-simplify', 'browser-setup-guides', 'canvas', 'debugging-hermes-tui-commands', 'fetching-blocked-web-downloads', 'hermes-desktop-plugins', 'node-inspect-debugger', 'security-attestation-patterns', 'sse-frontend-patterns', 'architecture-diagram', 'ascii-art', 'audio-instructions', 'beat-sync-editor']
   DATA_RETRIEVAL:
     candidate_domains: ['backend/database', 'research/web', 'productivity/notes']
-    sample_candidates: ['Data Analysis', 'antigravity-cli', 'axolotl', 'classify-test-failures', 'claude-coding-specialist', 'code-modernization', 'code-review', 'code-security', 'research-paper-generator', 'research-tools', 'web-scraper', 'web_search', 'custom-aware-research-prompt', 'deep-research-consultant', 'industry-research-report-writer', 'obsidian-canvas-factory', 'obsidian-vault-color-consolidation', 'obsidian-vault-quality-audit', 'obsidian-visual-iteration-loop', 'pr-ship-pattern']
+    sample_candidates: ['Data Analysis', 'antigravity-cli', 'axolotl', 'bash-script-audit', 'classify-test-failures', 'code-modernization', 'code-review', 'code-simplify', 'custom-aware-research-prompt', 'obsidian-canvas-factory', 'obsidian-vault-color-consolidation', 'obsidian-vault-quality-audit', 'obsidian-visual-iteration-loop', 'pr-ship-pattern', 'session-report', 'weekly-insights-synthesis']
   ANALYSIS:
     candidate_domains: ['research/web', 'zcode/tooling-meta', 'AI/ML/LLM', 'security/audit']
-    sample_candidates: ['research-paper-generator', 'research-tools', 'web-scraper', 'web_search', 'app-builder', 'architecture-diagram', 'ascii-art', 'audio-instructions', 'beat-sync-editor', 'blender-mcp', 'claude-code-command-creator', 'claude-code-provider-profiles', 'ai-text-humanizer', 'local-ai-security-hygiene', 'openclaw-assistant', 'tech-fact-check', 'analyzing-sbom-for-supply-chain-vulnerabilities', 'bash-script-audit', 'hermes-context-budget', 'performing-disk-forensics-investigation']
+    sample_candidates: ['architecture-diagram', 'ascii-art', 'audio-instructions', 'beat-sync-editor', 'blender-mcp', 'claude-code-command-creator', 'claude-code-provider-profiles', 'computer-use-game-reconnaissance', '3-statement-model', 'local-ai-security-hygiene', 'research-tools', 'tech-fact-check', 'analyzing-sbom-for-supply-chain-vulnerabilities', 'hermes-context-budget', 'performing-disk-forensics-investigation', 'performing-endpoint-forensics-investigation', 'performing-memory-forensics-with-volatility3', 'performing-network-forensics-with-wireshark', 'performing-nist-csf-maturity-assessment', 'project-landscape-audit']
   COMMUNICATION:
     candidate_domains: ['communication', 'content/media', 'writing/docs']
-    sample_candidates: ['hermes-gateway', 'inline-gate-fallback', 'ai-os-architect', 'ai-video-creator', 'analyzing-docker-container-forensics', 'analyzing-linux-system-artifacts', 'animal-podcast', 'anime-design', 'anime-style-forge', 'arxiv', 'nano-pdf', 'user-profile-memory']
+    sample_candidates: ['hermes-gateway', 'inline-gate-fallback', 'ai-os-architect', 'analyzing-docker-container-forensics', 'analyzing-linux-system-artifacts', 'animal-podcast', 'anime-design', 'anime-style-forge', 'ascii-video', 'audiobook', 'nano-pdf', 'ocr-and-documents', 'user-profile-memory']
   INFRASTRUCTURE:
     candidate_domains: ['devops/infra', 'backend/database']
-    sample_candidates: ['analyzing-linux-audit-logs-for-intrusion', 'analyzing-linux-kernel-rootkits', 'analyzing-persistence-mechanisms-in-linux', 'ci-non-english-config', 'claude-gaming-optimizer', 'claude-security-auditor', 'companion-clis', 'computer-use', 'Data Analysis', 'antigravity-cli', 'axolotl', 'classify-test-failures', 'claude-coding-specialist', 'code-modernization', 'code-review', 'code-security']
+    sample_candidates: ['analyzing-linux-audit-logs-for-intrusion', 'analyzing-linux-kernel-rootkits', 'analyzing-persistence-mechanisms-in-linux', 'ci-non-english-config', 'claude-gaming-optimizer', 'claude-security-auditor', 'companion-clis', 'computer-use', 'Data Analysis', 'antigravity-cli', 'axolotl', 'bash-script-audit', 'classify-test-failures', 'code-modernization', 'code-review', 'code-simplify']
   RESEARCH:
     candidate_domains: ['research/web', 'AI/ML/LLM']
-    sample_candidates: ['research-paper-generator', 'research-tools', 'web-scraper', 'web_search', 'ai-text-humanizer', 'local-ai-security-hygiene', 'openclaw-assistant', 'tech-fact-check']
+    sample_candidates: ['3-statement-model', 'local-ai-security-hygiene', 'research-tools', 'tech-fact-check']
 
 mcp_servers_configured:
   description: The 6 user-config servers in ~/.zcode/cli/config.json (canonical fields).

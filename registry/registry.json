@@ -1,33 +1,32 @@
 {
   "_generated": "2026-07-23",
   "_source": "~/.zcode/skills (symlink farm, 412 entries)",
-  "_count": 426,
+  "_count": 370,
   "_domain_counts": {
-    "agents/orchestration": 99,
-    "zcode/tooling-meta": 51,
-    "content/media": 95,
-    "web/frontend": 14,
-    "backend/database": 48,
-    "devops/infra": 56,
+    "agents/orchestration": 87,
+    "zcode/tooling-meta": 47,
+    "content/media": 73,
+    "web/frontend": 10,
+    "backend/database": 46,
+    "devops/infra": 55,
     "AI/ML/LLM": 4,
-    "productivity/notes": 10,
-    "research/web": 4,
-    "security/audit": 12,
+    "productivity/notes": 8,
+    "security/audit": 11,
     "gaming/greyhack": 6,
     "communication": 2,
-    "writing/docs": 2,
-    "other": 23
+    "writing/docs": 3,
+    "other": 18
   },
-  "_mcp_coupled_count": 19,
+  "_mcp_coupled_count": 18,
   "skills": [
     {
-      "name": "3d-web-dev-specialist",
-      "dir": "3d-web-dev-specialist",
+      "name": "3-statement-model",
+      "dir": "3-statement-model",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/3d-web-dev-specialist/SKILL.md",
-      "domain": "web/frontend",
+      "real_path": "~/.claude/skills/finance/3-statement-model/SKILL.md",
+      "domain": "AI/ML/LLM",
       "is_meta": false,
-      "description": "Expert 3D WebGL developer for building high-end, performant animated websites. Use when users ask to create 3D websites, WebGL experiences, Three.js projects, scroll-driven 3D animations, immersive WebGL effects, Three.js tutorials, or any request in",
+      "description": "Use when user asks for a 3-statement financial model, integrated IS/BS/CF Excel build, finance template completion. NOT for single-statement models, accounting, or non-financial spreadsheets. Build fully-integrated 3-statement models (IS, BS, CF) in ",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -52,18 +51,6 @@
       "domain": "other",
       "is_meta": false,
       "description": "Use when user asks for adversarial UX testing, roleplaying a tech-resistant user, persona-based UX critique, difficult-user simulation. NOT for standard usability tests, automated UX checks, or single-persona UX. Roleplay the most difficult, tech-res",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "agent-browser",
-      "dir": "agent-browser",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/agent-browser/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Automate browser tasks using accessibility tree snapshots with reference-based element selection for deterministic and reliable web automation",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -117,18 +104,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "ai-agents-architect",
-      "dir": "ai-agents-architect",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/ai-agents-architect/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Expert in designing and building autonomous AI agents. Helps with agent architecture, tool integration, memory systems, planning strategies, and multi-agent orchestration. Use when: building AI agents, designing autonomous systems, implementing tool ",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "ai-os-architect",
       "dir": "ai-os-architect",
       "source_root": "~/.claude",
@@ -141,34 +116,10 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "ai-text-humanizer",
-      "dir": "ai-text-humanizer",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/ai-text-humanizer/SKILL.md",
-      "domain": "AI/ML/LLM",
-      "is_meta": false,
-      "description": "Detect and remove AI writing patterns to make text sound naturally human. Use when users ask to humanize AI text, remove AI patterns, make writing sound natural, improve authenticity, or remove AI traces from generated content. Triggers: humanize AI ",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "ai-video-creator",
-      "dir": "ai-video-creator",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/ai-video-creator/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Generate stunning AI videos from text prompts or images with motion and animation. Use when users ask to create videos, generate animations, produce video content, or animate images.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "analyzing-docker-container-forensics",
       "dir": "analyzing-docker-container-forensics",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-docker-container-forensics/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/analyzing-docker-container-forensics/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
       "description": "Investigate compromised Docker containers by analyzing images, layers,",
@@ -179,8 +130,8 @@
     {
       "name": "analyzing-linux-audit-logs-for-intrusion",
       "dir": "analyzing-linux-audit-logs-for-intrusion",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-linux-audit-logs-for-intrusion/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/analyzing-linux-audit-logs-for-intrusion/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Uses the Linux Audit framework (auditd) with ausearch and aureport utilities",
@@ -191,8 +142,8 @@
     {
       "name": "analyzing-linux-kernel-rootkits",
       "dir": "analyzing-linux-kernel-rootkits",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-linux-kernel-rootkits/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/analyzing-linux-kernel-rootkits/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Detect kernel-level rootkits in Linux memory dumps using Volatility3",
@@ -203,8 +154,8 @@
     {
       "name": "analyzing-linux-system-artifacts",
       "dir": "analyzing-linux-system-artifacts",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-linux-system-artifacts/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/analyzing-linux-system-artifacts/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
       "description": "Examine Linux system artifacts including auth logs, cron jobs, shell",
@@ -215,8 +166,8 @@
     {
       "name": "analyzing-network-packets-with-scapy",
       "dir": "analyzing-network-packets-with-scapy",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-network-packets-with-scapy/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/analyzing-network-packets-with-scapy/SKILL.md",
       "domain": "other",
       "is_meta": false,
       "description": "Craft, send, sniff, and dissect network packets using Scapy for protocol",
@@ -227,8 +178,8 @@
     {
       "name": "analyzing-network-traffic-with-wireshark",
       "dir": "analyzing-network-traffic-with-wireshark",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-network-traffic-with-wireshark/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/analyzing-network-traffic-with-wireshark/SKILL.md",
       "domain": "other",
       "is_meta": false,
       "description": "Captures and analyzes network packet data using Wireshark and tshark",
@@ -239,8 +190,8 @@
     {
       "name": "analyzing-persistence-mechanisms-in-linux",
       "dir": "analyzing-persistence-mechanisms-in-linux",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-persistence-mechanisms-in-linux/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/analyzing-persistence-mechanisms-in-linux/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Detect and analyze Linux persistence mechanisms including crontab entries,",
@@ -251,8 +202,8 @@
     {
       "name": "analyzing-sbom-for-supply-chain-vulnerabilities",
       "dir": "analyzing-sbom-for-supply-chain-vulnerabilities",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-sbom-for-supply-chain-vulnerabilities/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/analyzing-sbom-for-supply-chain-vulnerabilities/SKILL.md",
       "domain": "security/audit",
       "is_meta": false,
       "description": "Parses Software Bill of Materials (SBOM) in CycloneDX and SPDX JSON",
@@ -297,18 +248,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "app-builder",
-      "dir": "app-builder",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/app-builder/SKILL.md",
-      "domain": "zcode/tooling-meta",
-      "is_meta": true,
-      "description": "Full-stack application builder that creates web apps, APIs, mobile apps, and more from natural language requests. Use when the user wants to build a new application, add features to existing projects, scaffold a project structure, or plan an implemen",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "architecture-diagram",
       "dir": "architecture-diagram",
       "source_root": "~/.claude",
@@ -318,18 +257,6 @@
       "description": "Use when user asks for architecture diagram, Architecture Diagram Skill, Scope, Workflow. NOT for technical docs, source code. Creates dark-themed SVG architecture and cloud infrastructure diagrams.",
       "mcp_server": null,
       "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "arxiv",
-      "dir": "arxiv",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/arxiv/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Search arXiv papers — academic primary source for technical research. Use for literature review, finding seminal papers, checking the state of the art. Triggers on \"arxiv\", \"paper\", \"literature review\", \"preprint\".",
-      "mcp_server": "web-search-prime",
-      "mcp_note": "arxiv via web search",
       "name_dir_mismatch": null
     },
     {
@@ -421,9 +348,9 @@
       "dir": "bash-script-audit",
       "source_root": "~/.claude",
       "real_path": "~/.claude/skills/bash-script-audit/SKILL.md",
-      "domain": "security/audit",
+      "domain": "backend/database",
       "is_meta": false,
-      "description": "Proactive audit pattern for bash scripts — security, error handling, shellcheck-grade issues, portability. Use as a checklist when reviewing or writing bash. Triggers on \"bash audit\", \"shellcheck\", \"script review\", \"shell script\".",
+      "description": "Use when user asks to audit or harden Bash scripts, scan shell code for bugs and security issues, run ShellCheck-style analysis, or repair Bash blocks embedded in Markdown skills. NOT for writing a new script from scratch or reviewing application cod",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -468,10 +395,10 @@
       "name": "blender-mcp",
       "dir": "blender-mcp",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/blender-mcp/SKILL.md",
+      "real_path": "~/.claude/skills/creative/blender-mcp/SKILL.md",
       "domain": "zcode/tooling-meta",
       "is_meta": true,
-      "description": "3D model control via Blender — mesh prep, visualization, simple edits. Use as an adjunct to 3D-printing for visualization and pre-print mesh checks. Triggers on \"blender\", \"3D visualization\", \"mesh prep\", \"MCP blender\".",
+      "description": "Use when user asks for blender mcp, Setup (one-time), 1. Install the Blender addon, 2. Start the socket server in Blender. NOT for 2D graphics, web development. Controls Blender directly via twozero MCP socket for 3D operator creation.",
       "mcp_server": "blender",
       "mcp_note": "Blender MCP",
       "name_dir_mismatch": null
@@ -537,18 +464,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "canvas-design",
-      "dir": "canvas-design",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/canvas-design/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Create beautiful visual art, posters, and design pieces using advanced design philosophy. Use when users ask to create a poster, piece of art, visual design, artistic poster, canvas artwork, or any static visual composition. Create original visual de",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "ci-non-english-config",
       "dir": "ci-non-english-config",
       "source_root": "~/.claude",
@@ -604,30 +519,6 @@
       "domain": "zcode/tooling-meta",
       "is_meta": true,
       "description": "Use when user asks to configure Claude Code with multiple API providers, isolated settings directories, per-provider model routing, wrapper scripts, or provider-profile verification. NOT for one-off model selection or generic API credential setup. Es",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "claude-coder",
-      "dir": "claude-coder",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/claude-coder/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Specific Claude Code worker for polyglot projects. Use when you need a Claude Code agent in a non-TypeScript stack. Triggers on \"claude code\", \"claude\", \"polyglot\".",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "claude-coding-specialist",
-      "dir": "claude-coding-specialist",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/claude-coding-specialist/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
-      "description": "Senior Claude Code worker for HARD problems — architecture, concurrency, heisenbugs, performance. Use when the regular coder gets stuck. Triggers on \"hard problem\", \"stuck\", \"heisenbug\", \"concurrency\", \"architecture decision\".",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -693,18 +584,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "clickhouse-best-practices",
-      "dir": "clickhouse-best-practices",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/clickhouse-best-practices/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "MUST USE when reviewing ClickHouse schemas, queries, or configurations. Specialized expert for ClickHouse database optimization covering schema design, query optimization, JOIN strategies, partition strategies, data type selection, insert performance",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "clip-export",
       "dir": "clip-export",
       "source_root": "~/.claude",
@@ -748,18 +627,6 @@
       "domain": "content/media",
       "is_meta": false,
       "description": "Use when user asks for a pre-merge code review, canonical reviewer checklist, spec-compliance assessment, or a standardized verdict for a coding pipeline. NOT for implementing the change or doing broad architecture design. Checks correctness, securit",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "code-security",
-      "dir": "code-security",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/code-security/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
-      "description": "Review code for security vulnerabilities and implement secure coding practices. Use when users ask to check for security issues, review authentication, or identify vulnerabilities in code.",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -856,18 +723,6 @@
       "domain": "content/media",
       "is_meta": false,
       "description": "Use when user asks for comfyui, ComfyUI workflow, image generation, video generation. NOT for text-only tasks, code generation. Generates images, video, and audio via ComfyUI with local GPU/VRAM detection.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "commit-commands",
-      "dir": "commit-commands",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/commit-commands/SKILL.md",
-      "domain": "other",
-      "is_meta": false,
-      "description": "Use when the user asks about or wants to create a commit, or says 'commit this' / 'commit message' / 'git commit'. Provides guidance on crafting clear, conventional git commits.",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -1020,7 +875,7 @@
       "name": "critic-gate",
       "dir": "critic-gate",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/software-development/critic-gate/SKILL.md",
+      "real_path": "~/.claude/skills/critic-gate/SKILL.md",
       "domain": "agents/orchestration",
       "is_meta": true,
       "description": "Use when user asks for a deterministic quality gate on structured output, a multi-agent deliverable audit, JSON verdicts, schema checks, or spec-conformance and integration review. NOT for implementing code or unstructured brainstorming. Validates th",
@@ -1044,10 +899,10 @@
       "name": "daily-briefing",
       "dir": "daily-briefing",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/daily-briefing/SKILL.md",
+      "real_path": "~/.claude/skills/productivity/daily-briefing/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
-      "description": "Start each session with a system status + open items + recent activity summary. Use at session start, after a long break, or when context is unclear. Triggers on \"morning\", \"start of day\", \"what's open\", \"session start\".",
+      "description": "Use when user asks for starting a Hermes work session, reviewing the last session and open work, checking cron and system status, validating today daily note, or requesting a morning or daily briefing. NOT for end-of-session handoff or a standalone r",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -1091,8 +946,8 @@
     {
       "name": "debugging-patterns",
       "dir": "debugging-patterns",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/debugging-patterns/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/debugging-patterns/SKILL.md",
       "domain": "backend/database",
       "is_meta": false,
       "description": "Concrete debugging tactics for error classification, library API verification, and multi-location bug fixes. Supplements systematic-debugging with pattern-level techniques.",
@@ -1113,34 +968,10 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "deep-research-agent",
-      "dir": "deep-research-agent",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/deep-research-agent/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Comprehensive research agent for in-depth investigation. Use when users ask for deep research, comprehensive analysis, market research, academic surveys, competitive analysis, technology trends, or any topic requiring 100+ source verification. Trigge",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "deep-research-consultant",
-      "dir": "deep-research-consultant",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/deep-research-consultant/SKILL.md",
-      "domain": "productivity/notes",
-      "is_meta": false,
-      "description": "Nghiên cứu sâu chuyên nghiệp theo phong cách McKinsey, BCG, Bain, Deloitte, PwC, EY, KPMG. Use when users ask to research deeply, find 100+ sources, create comprehensive consulting-style reports with executive summary, market analysis, data-driven in",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "defensive-programming",
       "dir": "defensive-programming",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/defensive-programming/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/defensive-programming/SKILL.md",
       "domain": "backend/database",
       "is_meta": false,
       "description": "Defensive programming practices to prevent bugs and increase code resilience",
@@ -1163,8 +994,8 @@
     {
       "name": "deploying-osquery-for-endpoint-monitoring",
       "dir": "deploying-osquery-for-endpoint-monitoring",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/deploying-osquery-for-endpoint-monitoring/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/deploying-osquery-for-endpoint-monitoring/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Deploys and configures osquery for real-time endpoint monitoring using",
@@ -1211,8 +1042,8 @@
     {
       "name": "detecting-aws-credential-exposure-with-trufflehog",
       "dir": "detecting-aws-credential-exposure-with-trufflehog",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-aws-credential-exposure-with-trufflehog/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/detecting-aws-credential-exposure-with-trufflehog/SKILL.md",
       "domain": "backend/database",
       "is_meta": false,
       "description": "Detecting exposed AWS credentials in source code repositories, CI/CD",
@@ -1223,8 +1054,8 @@
     {
       "name": "detecting-beaconing-patterns-with-zeek",
       "dir": "detecting-beaconing-patterns-with-zeek",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-beaconing-patterns-with-zeek/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/detecting-beaconing-patterns-with-zeek/SKILL.md",
       "domain": "other",
       "is_meta": false,
       "description": "Performs statistical analysis of Zeek conn.log connection intervals",
@@ -1235,8 +1066,8 @@
     {
       "name": "detecting-container-escape-attempts",
       "dir": "detecting-container-escape-attempts",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-container-escape-attempts/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/detecting-container-escape-attempts/SKILL.md",
       "domain": "other",
       "is_meta": false,
       "description": "Container escape is a critical attack technique where an adversary breaks",
@@ -1247,8 +1078,8 @@
     {
       "name": "detecting-container-runtime-threats-with-falco",
       "dir": "detecting-container-runtime-threats-with-falco",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-container-runtime-threats-with-falco/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/detecting-container-runtime-threats-with-falco/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Write and deploy Falco rules with the modern eBPF driver to detect container",
@@ -1259,8 +1090,8 @@
     {
       "name": "detecting-dns-exfiltration-with-dns-query-analysis",
       "dir": "detecting-dns-exfiltration-with-dns-query-analysis",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-dns-exfiltration-with-dns-query-analysis/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/detecting-dns-exfiltration-with-dns-query-analysis/SKILL.md",
       "domain": "other",
       "is_meta": false,
       "description": "Detect data exfiltration through DNS tunneling by analyzing query entropy,",
@@ -1271,8 +1102,8 @@
     {
       "name": "detecting-network-anomalies-with-zeek",
       "dir": "detecting-network-anomalies-with-zeek",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-network-anomalies-with-zeek/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/detecting-network-anomalies-with-zeek/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Deploys and configures Zeek (formerly Bro) network security monitor",
@@ -1283,8 +1114,8 @@
     {
       "name": "detecting-port-scanning-with-fail2ban",
       "dir": "detecting-port-scanning-with-fail2ban",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-port-scanning-with-fail2ban/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/detecting-port-scanning-with-fail2ban/SKILL.md",
       "domain": "other",
       "is_meta": false,
       "description": "Configures Fail2ban with custom filters and actions to detect port scanning",
@@ -1295,8 +1126,8 @@
     {
       "name": "detecting-rootkit-activity",
       "dir": "detecting-rootkit-activity",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-rootkit-activity/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/detecting-rootkit-activity/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Detects rootkit presence on compromised systems by identifying hidden",
@@ -1305,13 +1136,13 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "deutscher-schlager",
-      "dir": "deutscher-schlager",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/deutscher-schlager/SKILL.md",
-      "domain": "other",
-      "is_meta": false,
-      "description": "German Schlager style — Discofox, Sehnsuchts-Ballade, evergreen chord progressions, form. Use for German pop, Volksmusik-adjacent, Karaoke-friendly material. Triggers on \"schlager\", \"deutsche pop\", \"discofox\", \"volksmusik\".",
+      "name": "dev-lens-swarm",
+      "dir": "dev-lens-swarm",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/dev-lens-swarm/SKILL.md",
+      "domain": "agents/orchestration",
+      "is_meta": true,
+      "description": "Use when a development task exceeds a single agent — feature, bugfix, refactor, review or greenfield work that profits from parallel specialist lenses dispatched over a DAG scheduler. RepoLens-inspired round model: grill-4x4 plan phase, triage, paral",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -1372,18 +1203,6 @@
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Use when user asks for exploratory QA of a web app, bug hunting with evidence, dogfooding reports, systematic bug reports. NOT for unit tests, automated test suites, or non-web-app QA. Exploratory QA of web apps: find bugs, evidence, reports.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "drama-soundtrack",
-      "dir": "drama-soundtrack",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/drama-soundtrack/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Soundtrack suites — character themes, OP/ED, BGM. Focus on leitmotif, tension/release, scene support. Use for anime, film, game score. Triggers on \"soundtrack\", \"anime OP\", \"BGM\", \"character theme\", \"leitmotif\".",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -1461,30 +1280,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "fable-orchestration-pattern",
-      "dir": "fable-orchestration-pattern",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/orchestration/fable-orchestration-pattern/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Use when choosing between orchestration variants for multi-agent swarms.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "feature-development",
-      "dir": "feature-development",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/feature-development/SKILL.md",
-      "domain": "other",
-      "is_meta": false,
-      "description": "Use when the user says 'add a feature' / 'implement X' / 'build a new thing' / 'create component'. Guides structured feature implementation from planning through verification.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "fetching-blocked-web-downloads",
       "dir": "fetching-blocked-web-downloads",
       "source_root": "unknown",
@@ -1545,30 +1340,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "frontend-design",
-      "dir": "frontend-design",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/frontend-design/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use when users ask to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CS",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "frontend-design-expert",
-      "dir": "frontend-design-expert",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/frontend-design-expert/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Expert frontend design guidelines for creating beautiful, modern user interfaces. Use when users ask for design guidance, UI/UX best practices, component design, or frontend development standards.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "frontend-design-templates",
       "dir": "frontend-design-templates",
       "source_root": "~/.claude",
@@ -1576,30 +1347,6 @@
       "domain": "content/media",
       "is_meta": false,
       "description": "Basti's curated top-5 frontend design templates (design tokens, layout, component styling, Tailwind/CSS snippets). Use when building or restyling any frontend/UI — websites, dashboards, landing pages, app UIs — and a design direction, \"schönes Design",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "fullstack-dev",
-      "dir": "fullstack-dev",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/fullstack-dev/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Full-stack backend architecture and frontend-backend integration guide. TRIGGER when: building a full-stack app, creating REST API with frontend, scaffolding backend service, building todo app, building CRUD app, building real-time app, building chat",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "future-mirror",
-      "dir": "future-mirror",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/future-mirror/SKILL.md",
-      "domain": "web/frontend",
-      "is_meta": false,
-      "description": "Career planning system: gather user info, generate 3 career paths with Awwwards-level HTML report, roleplay as user's 3-year future self in dialogue, and produce an immersive 'Letter from the Future' HTML page. Triggers on: career planning, career tr",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -1648,18 +1395,6 @@
       "domain": "content/media",
       "is_meta": false,
       "description": "Use when user asks for searching/downloading GIFs, Tenor API GIF retrieval, gif selection for messages. NOT for creating original GIFs or non-Tenor GIF sources. Search/download GIFs from Tenor via curl + jq.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "gif-sticker-maker",
-      "dir": "gif-sticker-maker",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/gif-sticker-maker/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Cute cartoon sticker generator that converts photos (people, pets, objects, logos) into 4 animated GIF stickers with captions. Supports custom or default captions in user's language. Triggers on: sticker, GIF sticker, cartoon sticker, bobblehead stic",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -1860,7 +1595,7 @@
       "name": "greyhack",
       "dir": "greyhack",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/gaming/greyhack/SKILL.md",
+      "real_path": "~/.claude/skills/greyhack/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Use when user asks for GreyScript language reference, GreyHack scripting patterns, three-layer mental model, GreyScript deployment. NOT for non-GreyHack games or other MMO scripting languages. GreyHack MMO scripting — GreyScript language reference an",
@@ -1932,7 +1667,7 @@
       "name": "greyhack-sandbox",
       "dir": "greyhack-sandbox",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/gaming/greyhack-sandbox/SKILL.md",
+      "real_path": "~/.claude/skills/greyhack-sandbox/SKILL.md",
       "domain": "gaming/greyhack",
       "is_meta": false,
       "description": "Use when user asks for GreyScript testing outside the game, greybel-js REPL, sandboxed GreyScript compilation, monodis DLL inspection. NOT for in-game GreyScript execution (use greyhack) or production GreyScript. Test GreyScript tools outside GreyHac",
@@ -1956,7 +1691,7 @@
       "name": "greyscript-compiler-debugging",
       "dir": "greyscript-compiler-debugging",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/software-development/greyscript-compiler-debugging/SKILL.md",
+      "real_path": "~/.claude/skills/greyscript-compiler-debugging/SKILL.md",
       "domain": "backend/database",
       "is_meta": false,
       "description": "Use when user asks to compile or debug GreyScript in GreyHack, diagnose `.src` build errors, verify DB-injected commands, or investigate runtime failures after a successful compile. NOT for generic programming or unrelated in-game tasks. Covers the f",
@@ -1965,10 +1700,34 @@
       "name_dir_mismatch": null
     },
     {
+      "name": "grill-4x4",
+      "dir": "grill-4x4",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/grill-4x4/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "Use when entering plan mode or refining a plan/vague idea and the design frontier is not yet exhausted — adaptiv-fluide Befragung in max. 4 Runden à 4 Fragen (AskUserQuestion-Maximum), frontier-gesteuert aus 7 Seeds, jede Frage mit Empfehlung. NOT fo",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "grill-me",
+      "dir": "grill-me",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/grill-me/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "Use when the user says \"grill me\", \"grill mich\", \"stress-test this\", \"challenge my plan\", \"nimm meinen Plan auseinander\", or has a loose plan or decision they cannot commit to yet.",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
       "name": "hardening-docker-containers-for-production",
       "dir": "hardening-docker-containers-for-production",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/hardening-docker-containers-for-production/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/hardening-docker-containers-for-production/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Hardening Docker containers for production involves applying security",
@@ -1979,8 +1738,8 @@
     {
       "name": "hardening-docker-daemon-configuration",
       "dir": "hardening-docker-daemon-configuration",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/hardening-docker-daemon-configuration/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/hardening-docker-daemon-configuration/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Harden the Docker daemon by configuring daemon.json with user namespace",
@@ -1991,8 +1750,8 @@
     {
       "name": "hardening-linux-endpoint-with-cis-benchmark",
       "dir": "hardening-linux-endpoint-with-cis-benchmark",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/hardening-linux-endpoint-with-cis-benchmark/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/hardening-linux-endpoint-with-cis-benchmark/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Hardens Linux endpoints using CIS Benchmark recommendations for Ubuntu,",
@@ -2181,6 +1940,18 @@
       "name_dir_mismatch": null
     },
     {
+      "name": "hermes-wiki",
+      "dir": "hermes-wiki",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/hermes-wiki/SKILL.md",
+      "domain": "agents/orchestration",
+      "is_meta": true,
+      "description": "Use when working on the hermes-wiki — the German reference wiki about Hermes Agent at ~/.zcode/workspace/default/hermes-wiki (canon from the hermes-agent repo + this machine's setup documentation). Triggers on \"hermes wiki\", \"hermes-wiki\", questions ",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
       "name": "himalaya",
       "dir": "himalaya",
       "source_root": "~/.claude",
@@ -2223,7 +1994,7 @@
       "real_path": "~/.claude/skills/html-presentation-generator/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
-      "description": "Generate professional multi-page HTML presentations (PPT) exportable to PDF/PPTX. Covers cover pages, table of contents, section dividers, content pages, and summary/closing slides. TRIGGERS: PPT, presentation, slides, 演示文稿, 幻灯片, HTML PPT, slide deck",
+      "description": "Use when the user asks for a presentation, slide deck, or PPT built as HTML pages (e.g. 'make a presentation about X', 'create slides', 'build a deck') — in a minimal/visual style (image-forward, creative or business) or a McKinsey consulting style (",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -2255,35 +2026,11 @@
     {
       "name": "hunting-advanced-persistent-threats",
       "dir": "hunting-advanced-persistent-threats",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/hunting-advanced-persistent-threats/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/hunting-advanced-persistent-threats/SKILL.md",
       "domain": "other",
       "is_meta": false,
       "description": "Proactively hunts for Advanced Persistent Threat (APT) activity within",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "hybrid-swarm-evaluation",
-      "dir": "hybrid-swarm-evaluation",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/orchestration/hybrid-swarm-evaluation/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Use when user asks for deciding whether a plan should use a swarm, designing a Queen-Bee plus scout workflow, estimating wall-time savings from parallelism, or reviewing a plan before multi-agent dispatch. NOT for executing a single-worker task or di",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "icon-maker",
-      "dir": "icon-maker",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/icon-maker/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "AI icon generator that creates professional-grade icons from descriptions. Supports Apps, websites, desktop software, games, brand logos, social avatars, and more. 20+ style options including Minimal, 3D, Texture, Retro, and Artistic series, plus ran",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -2301,22 +2048,10 @@
       "name_dir_mismatch": "image-remix"
     },
     {
-      "name": "image-craft",
-      "dir": "image-craft",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/image-craft/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Curated image generation assistant covering four categories — characters, scenes, products, and style transformation — for generating high-quality stylized 3D images. Trigger keywords: figure, doll, portrait, chibi, city, landmark, movie scene, room,",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "implementing-container-image-minimal-base-with-distroless",
       "dir": "implementing-container-image-minimal-base-with-distroless",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/implementing-container-image-minimal-base-with-distroless/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/implementing-container-image-minimal-base-with-distroless/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
       "description": "Reduce container attack surface by building application images on Google",
@@ -2327,8 +2062,8 @@
     {
       "name": "implementing-kubernetes-pod-security-standards",
       "dir": "implementing-kubernetes-pod-security-standards",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/implementing-kubernetes-pod-security-standards/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/implementing-kubernetes-pod-security-standards/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Pod Security Standards (PSS) define three levels of security policies",
@@ -2339,8 +2074,8 @@
     {
       "name": "implementing-network-segmentation-with-firewall-zones",
       "dir": "implementing-network-segmentation-with-firewall-zones",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/implementing-network-segmentation-with-firewall-zones/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/implementing-network-segmentation-with-firewall-zones/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
       "description": "Design and implement network segmentation using firewall security zones,",
@@ -2351,23 +2086,11 @@
     {
       "name": "implementing-secret-scanning-with-gitleaks",
       "dir": "implementing-secret-scanning-with-gitleaks",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/implementing-secret-scanning-with-gitleaks/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/implementing-secret-scanning-with-gitleaks/SKILL.md",
       "domain": "zcode/tooling-meta",
       "is_meta": true,
       "description": "This skill covers implementing Gitleaks for detecting and preventing",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "industry-research-report-writer",
-      "dir": "industry-research-report-writer",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/industry-research-report-writer/SKILL.md",
-      "domain": "productivity/notes",
-      "is_meta": false,
-      "description": "Creates professional industry research reports with comprehensive data gathering, synthesis, fact-checking, and DOCX/PDF formatting. Trigger keywords: research report, industry analysis, market analysis, competitive landscape, sector research, financ",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -2395,18 +2118,6 @@
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": "hermes-memory"
-    },
-    {
-      "name": "interactive-visualization-architect",
-      "dir": "interactive-visualization-architect",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/interactive-visualization-architect/SKILL.md",
-      "domain": "other",
-      "is_meta": false,
-      "description": "Turn any concept into stunning interactive web animations. When users want to understand science principles, mechanical structures, math concepts, or any abstract idea, generate interactive Web demos with a shareable URL. Triggers: 演示, 可视化, 动画, visua",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
     },
     {
       "name": "jupyter-live-kernel",
@@ -2476,30 +2187,6 @@
       "domain": "agents/orchestration",
       "is_meta": true,
       "description": "Use when building structured AI-agent workflows with quality gates to prevent common pitfalls.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "knowledge-digest",
-      "dir": "knowledge-digest",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/knowledge-digest/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Converts textbooks or PDFs into personalized, multimodal interactive learning materials including handwritten notes, quiz webpages, slides, audio courses, and mind maps. Trigger: learning materials, convert textbook, study notes, quiz generation, sli",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "landing-page-builder",
-      "dir": "landing-page-builder",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/landing-page-builder/SKILL.md",
-      "domain": "web/frontend",
-      "is_meta": false,
-      "description": "Professional high-end Landing Page generation tool. Creates visually stunning, Awwwards-level web pages with cinematic hero sections, deploys them online, and delivers deployment URLs. Trigger keywords: landing page, web page, hero section, product l",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -2673,18 +2360,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "mckinsey-presentation-generator",
-      "dir": "mckinsey-presentation-generator",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/mckinsey-presentation-generator/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "A professional McKinsey consulting-style multi-page HTML presentation generator. Creates data-rich, research-backed slide decks with SVG charts, market analysis, and industry insights. Produces formal, information-dense slides with proper source cita",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "mcp-server-authoring",
       "dir": "mcp-server-authoring",
       "source_root": "~/.claude",
@@ -2757,66 +2432,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "mini-coder-max",
-      "dir": "mini-coder-max",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/mini-coder-max/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Autonomous coding agent that systematically plans, implements, reviews, and delivers high-quality code. Handles tasks of any complexity by following a structured workflow: planning → implementation → quality assurance → delivery. Trigger keywords: co",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "minimax-ai-agent-builder",
-      "dir": "minimax-ai-agent-builder",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/minimax-ai-agent-builder/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "A comprehensive guide to building your first AI agent using MiniMax. Use when users ask how to create AI agents, build autonomous assistants, develop LLM-powered applications, or get started with MiniMax agent development. Triggers include phrases li",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "minimax-crypto-trading",
-      "dir": "minimax-crypto-trading",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/minimax-crypto-trading/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "A professional-grade crypto trading decision agent for BTC/ETH/SOL. Uses multi-layer analysis (Macro Gatekeeper, Anti-Consensus Filter, SFP Liquidity Hunter, Committee Decision, Minimax Executor, Risk Governor) to identify asymmetric trades. Prioriti",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "minimax-docx",
-      "dir": "minimax-docx",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/minimax-docx/SKILL.md",
-      "domain": "zcode/tooling-meta",
-      "is_meta": true,
-      "description": "Professional DOCX document creation, editing, and formatting using OpenXML SDK (.NET). Three pipelines: (A) create new documents from scratch, (B) fill/edit content in existing documents, (C) apply template formatting with XSD validation gate-check. ",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "minimax-pdf",
-      "dir": "minimax-pdf",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/minimax-pdf/SKILL.md",
-      "domain": "zcode/tooling-meta",
-      "is_meta": true,
-      "description": "Use this skill when visual quality and design identity matter for a PDF. CREATE (generate from scratch): \"make a PDF\", \"generate a report\", \"write a proposal\", \"create a resume\", \"beautiful PDF\", \"professional document\", \"cover page\", \"polished PDF\",",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "mlops-suite",
       "dir": "mlops-suite",
       "source_root": "~/.claude",
@@ -2824,18 +2439,6 @@
       "domain": "content/media",
       "is_meta": false,
       "description": "Use when user asks for choosing an MLOps tool for a task, comparing vLLM with llama.cpp, finding workflows for Hub, experiment tracking, audio, segmentation, or evaluation, or routing a broad ML operations request. NOT for deep troubleshooting of one",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "mmx-lane",
-      "dir": "mmx-lane",
-      "source_root": "unknown",
-      "real_path": "~/.zcode/skills/mmx-lane/SKILL.md",
-      "domain": "zcode/tooling-meta",
-      "is_meta": true,
-      "description": "Use BEFORE executing or delegating any task when deciding the execution lane — routes light/trivial/bulk generation and digestion work automatically to MiniMax via `mmx text chat` (Token-Plan-Flatrate) and keeps hard/agentic work on GLM. Triggers on ",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -2860,18 +2463,6 @@
       "domain": "backend/database",
       "is_meta": false,
       "description": "Use when user asks for choosing an LLM from the Nous Portal, comparing models by speed, reasoning, code ability, or price, resolving provider-specific model names, or selecting a local model for limited VRAM. NOT for running formal benchmark evaluati",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "multi-agent-cluster-patterns",
-      "dir": "multi-agent-cluster-patterns",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/orchestration/multi-agent-cluster-patterns/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Use when selecting dispatch modes and operative patterns for multi-agent clusters.",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -2913,30 +2504,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "multi-agent-orchestration",
-      "dir": "multi-agent-orchestration",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/multi-agent-orchestration/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "MCP tool inheritance, code/doc lookups, gate-checks before delegate_task. Use as the protocol layer when running multi-agent plans. Triggers on \"delegate\", \"spawn sub-agent\", \"MCP\", \"orchestration protocol\".",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "multi-agent-work",
-      "dir": "multi-agent-work",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/software-development/multi-agent-work/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Use when user asks for an end-to-end multi-agent workflow from research through implementation, a Queen-and-worker swarm, a gated system-repair swarm, or structured worker review and verification. NOT for simple single-agent tasks or an isolated quic",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "multi-host-connectivity-planning",
       "dir": "multi-host-connectivity-planning",
       "source_root": "~/.claude",
@@ -2944,30 +2511,6 @@
       "domain": "backend/database",
       "is_meta": false,
       "description": "Use when user asks for connecting multiple hosts, reviewing infrastructure connectivity architecture, comparing SSH, mesh, or tunnel options, or writing a cross-host setup playbook. NOT for configuring only one server or debugging container-internal ",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "n8n",
-      "dir": "n8n",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/n8n/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
-      "description": "Manage n8n workflows and automations via API. Use when working with n8n workflows, executions, or automation tasks - listing workflows, activating/deactivating, checking execution status, manually triggering workflows, or debugging automation issues.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "nano-banana-pro",
-      "dir": "nano-banana-pro",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/nano-banana-pro/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image). Use for image create/modify requests incl. edits. Supports text-to-image + image-to-image; 1K/2K/4K; use --input-image.",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3018,6 +2561,18 @@
       "description": "Use when user asks to debug Node.js or TypeScript with V8 breakpoints, stepping, call stacks, scope inspection, expression evaluation, Chrome DevTools Protocol, or Hermes TUI and Ink processes. NOT for Python debugging or browser-only frontend debugg",
       "mcp_server": null,
       "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "notebooklm-bridge",
+      "dir": "notebooklm-bridge",
+      "source_root": "~/.claude",
+      "real_path": "~/.claude/skills/notebooklm-bridge/SKILL.md",
+      "domain": "content/media",
+      "is_meta": false,
+      "description": "Use when user asks for managing NotebookLM notebooks and sources, asking citation-grounded questions over uploaded material, generating audio briefings or artifacts, or troubleshooting nblm authentication. NOT for general Google Drive editing or ungr",
+      "mcp_server": "notebooklm",
+      "mcp_note": "NotebookLM MCP",
       "name_dir_mismatch": null
     },
     {
@@ -3157,9 +2712,33 @@
       "dir": "ocr-and-documents",
       "source_root": "~/.claude",
       "real_path": "~/.claude/skills/ocr-and-documents/SKILL.md",
-      "domain": "content/media",
+      "domain": "writing/docs",
       "is_meta": false,
-      "description": "PDF and scanned document extraction via pymupdf, marker-pdf, and similar. Use when the primary source is a PDF, scan, or image-based document. Triggers on \"OCR\", \"extract PDF\", \"scan\", \"pymupdf\", \"marker-pdf\".",
+      "description": "Use when user asks for extracting text from a PDF or scan, running high-quality OCR on a document, converting document content to Markdown, or choosing between pymupdf and marker-pdf. NOT for editing PDF text in place or reading an already accessible",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "odysseus",
+      "dir": "odysseus",
+      "source_root": "~/.claude",
+      "real_path": "~/.claude/skills/odysseus/SKILL.md",
+      "domain": "agents/orchestration",
+      "is_meta": true,
+      "description": "Use when the user asks Claude Code to read or write Odysseus data (todos, email, calendar, memory, documents) or to launch/monitor/stop a Cookbook model-serve task through the scoped Claude Agent API. Requires ODYSSEUS_URL and ODYSSEUS_API_TOKEN.",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "odysseus-scoped-api",
+      "dir": "odysseus-scoped-api",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/odysseus-scoped-api/SKILL.md",
+      "domain": "agents/orchestration",
+      "is_meta": true,
+      "description": "Drive the Odysseus instance on the GCP cloud-server via its scoped API token - chat sessions, agent-mode fan-out, and (if enabled) todos/memory/calendar/documents/email/cookbook. Use when the user asks to run something IN Odysseus, fan out Odysseus a",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3179,23 +2758,11 @@
     {
       "name": "open-source-extraction",
       "dir": "open-source-extraction",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/open-source-extraction/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/open-source-extraction/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Extract specific packages from large open-source monorepos and adapt them for standalone use. Covers dependency mapping, stripping cloud/infra deps, creating shim packages, and iterative build fixing.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "openclaw-assistant",
-      "dir": "openclaw-assistant",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/openclaw-assistant/SKILL.md",
-      "domain": "AI/ML/LLM",
-      "is_meta": false,
-      "description": "Experto especializado en la instalación, configuración y uso de openclaw (clawd.bot). Ayuda con instalación en VPS, configuración de canales de mensajería (WhatsApp, Telegram, Discord, Slack, Signal, Matrix, etc.), gestión del Gateway, resolución de ",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3229,9 +2796,9 @@
       "dir": "output-validator",
       "source_root": "~/.claude",
       "real_path": "~/.claude/skills/output-validator/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Pre-flight validation of agent output before delivery. Use to verify completeness, correctness, and constraint compliance before handing off to the user or verifier. Triggers on \"validate\", \"check output\", \"before delivery\", \"pre-flight\".",
+      "domain": "backend/database",
+      "is_meta": false,
+      "description": "Use when user asks to preflight or validate worker output as JSON, Markdown, Python code, or another structured format before handoff. NOT for subjective quality review or implementing the output. Returns structured validity, missing fields or sectio",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3263,8 +2830,8 @@
     {
       "name": "performing-authenticated-vulnerability-scan",
       "dir": "performing-authenticated-vulnerability-scan",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-authenticated-vulnerability-scan/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/performing-authenticated-vulnerability-scan/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Authenticated (credentialed) vulnerability scanning uses valid system",
@@ -3275,8 +2842,8 @@
     {
       "name": "performing-container-security-scanning-with-trivy",
       "dir": "performing-container-security-scanning-with-trivy",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-container-security-scanning-with-trivy/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/performing-container-security-scanning-with-trivy/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
       "description": "Scan container images, filesystems, and Kubernetes manifests for vulnerabilities,",
@@ -3287,8 +2854,8 @@
     {
       "name": "performing-disk-forensics-investigation",
       "dir": "performing-disk-forensics-investigation",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-disk-forensics-investigation/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/performing-disk-forensics-investigation/SKILL.md",
       "domain": "security/audit",
       "is_meta": false,
       "description": "Conducts disk forensics investigations using forensic imaging, file",
@@ -3299,8 +2866,8 @@
     {
       "name": "performing-docker-bench-security-assessment",
       "dir": "performing-docker-bench-security-assessment",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-docker-bench-security-assessment/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/performing-docker-bench-security-assessment/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Docker Bench for Security is an open-source script that checks dozens",
@@ -3311,8 +2878,8 @@
     {
       "name": "performing-endpoint-forensics-investigation",
       "dir": "performing-endpoint-forensics-investigation",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-endpoint-forensics-investigation/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/performing-endpoint-forensics-investigation/SKILL.md",
       "domain": "security/audit",
       "is_meta": false,
       "description": "Performs digital forensics investigation on compromised endpoints including",
@@ -3323,8 +2890,8 @@
     {
       "name": "performing-file-carving-with-foremost",
       "dir": "performing-file-carving-with-foremost",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-file-carving-with-foremost/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/performing-file-carving-with-foremost/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
       "description": "Recover files from disk images and unallocated space using Foremost's",
@@ -3335,8 +2902,8 @@
     {
       "name": "performing-linux-log-forensics-investigation",
       "dir": "performing-linux-log-forensics-investigation",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-linux-log-forensics-investigation/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/performing-linux-log-forensics-investigation/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Perform forensic investigation of Linux system logs including syslog,",
@@ -3347,8 +2914,8 @@
     {
       "name": "performing-log-analysis-for-forensic-investigation",
       "dir": "performing-log-analysis-for-forensic-investigation",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-log-analysis-for-forensic-investigation/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/performing-log-analysis-for-forensic-investigation/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Collect, parse, and correlate system, application, and security logs",
@@ -3359,8 +2926,8 @@
     {
       "name": "performing-malware-triage-with-yara",
       "dir": "performing-malware-triage-with-yara",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-malware-triage-with-yara/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/performing-malware-triage-with-yara/SKILL.md",
       "domain": "backend/database",
       "is_meta": false,
       "description": "Performs rapid malware triage and classification using YARA rules to",
@@ -3371,8 +2938,8 @@
     {
       "name": "performing-memory-forensics-with-volatility3",
       "dir": "performing-memory-forensics-with-volatility3",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-memory-forensics-with-volatility3/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/performing-memory-forensics-with-volatility3/SKILL.md",
       "domain": "security/audit",
       "is_meta": false,
       "description": "Analyze volatile memory dumps using Volatility 3 to extract running processes,",
@@ -3383,8 +2950,8 @@
     {
       "name": "performing-network-forensics-with-wireshark",
       "dir": "performing-network-forensics-with-wireshark",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-network-forensics-with-wireshark/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/performing-network-forensics-with-wireshark/SKILL.md",
       "domain": "security/audit",
       "is_meta": false,
       "description": "Capture and analyze network traffic using Wireshark and tshark to reconstruct",
@@ -3395,8 +2962,8 @@
     {
       "name": "performing-nist-csf-maturity-assessment",
       "dir": "performing-nist-csf-maturity-assessment",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-nist-csf-maturity-assessment/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/performing-nist-csf-maturity-assessment/SKILL.md",
       "domain": "security/audit",
       "is_meta": false,
       "description": "The NIST Cybersecurity Framework (CSF) 2.0, released in February 2024,",
@@ -3459,7 +3026,7 @@
       "real_path": "~/.claude/skills/plan/SKILL.md",
       "domain": "zcode/tooling-meta",
       "is_meta": true,
-      "description": "Create structured plans before execution. Use for complex tasks, multi-step work, or when the user wants a written plan first. Triggers on \"plan\", \"design\", \"before we start\", \"how should we approach\".",
+      "description": "Use when the user wants an implementation plan written before any code is changed — a multi-step task, several defensible approaches, an expensive first move, or an explicit request to plan first. NOT for a trivial one-file edit, pure read-only inves",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3472,18 +3039,6 @@
       "domain": "zcode/tooling-meta",
       "is_meta": true,
       "description": "Use when user asks for a GLM 5.2 implementation plan, invokes `/plan-glm`, or wants a dedicated planner subprocess without changing the current session model. NOT for executing the plan or switching the active session model. Extracts context, spawns ",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "plan-mode",
-      "dir": "plan-mode",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/plan-mode/SKILL.md",
-      "domain": "zcode/tooling-meta",
-      "is_meta": true,
-      "description": "Plan-before-execution discipline — discuss approach before implementation. Use when multiple valid approaches exist, when the user is unsure what they want, or when a wrong first move is expensive. Triggers on \"plan first\", \"before we implement\", \"wh",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3537,18 +3092,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "pr-review",
-      "dir": "pr-review",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/pr-review/SKILL.md",
-      "domain": "other",
-      "is_meta": false,
-      "description": "Use when the user says 'review this PR' / 'PR review' / 'pull request' / 'review these changes'. Provides structured pull request review with actionable feedback.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "pr-ship-pattern",
       "dir": "pr-ship-pattern",
       "source_root": "~/.claude",
@@ -3556,18 +3099,6 @@
       "domain": "productivity/notes",
       "is_meta": false,
       "description": "Use when shipping a feature end-to-end from briefing to merged PR.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "prd-assistant",
-      "dir": "prd-assistant",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/prd-assistant/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Product requirements analysis and PRD generation assistant. Transforms requirement ideas into complete product solutions including background research, competitor analysis, process modeling with Mermaid flowcharts, PRD document output (Markdown + PDF",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3604,18 +3135,6 @@
       "domain": "security/audit",
       "is_meta": false,
       "description": "Use when scanning a home-directory or workspace for project inventory and health.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "prompt-engineer",
-      "dir": "prompt-engineer",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/prompt-engineer/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Expert prompt engineering agent that helps users craft, critique, refine, and debug prompts for LLMs and AI systems. Use this skill whenever the user needs help writing a prompt, improving an existing prompt, debugging why a prompt produces bad outpu",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3707,8 +3226,8 @@
     {
       "name": "recovering-deleted-files-with-photorec",
       "dir": "recovering-deleted-files-with-photorec",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/recovering-deleted-files-with-photorec/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/recovering-deleted-files-with-photorec/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
       "description": "Recover deleted files from disk images and storage media using PhotoRec's",
@@ -3719,8 +3238,8 @@
     {
       "name": "reference-architecture-research",
       "dir": "reference-architecture-research",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/reference-architecture-research/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/reference-architecture-research/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Systematic deep-architecture research of reference repositories before greenfield implementation — clone, audit, feature parity, ADRs, provenance, skeleton.",
@@ -3741,25 +3260,13 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "research-paper-generator",
-      "dir": "research-paper-generator",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/research-paper-generator/SKILL.md",
-      "domain": "research/web",
-      "is_meta": false,
-      "description": "Autonomously produces doctorate-level research papers (12,000-15,000 words) as formatted Word documents (.docx). Covers the full pipeline: topic analysis, research question formulation, literature discovery and evaluation, critical synthesis, theoret",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "research-paper-writing",
       "dir": "research-paper-writing",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/research/research-paper-writing/SKILL.md",
+      "real_path": "~/.claude/skills/research-paper-writing/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
-      "description": "Use when user asks to design experiments, analyze results, write, review, revise, or submit an ML/AI research paper for venues such as NeurIPS, ICML, ICLR, ACL, AAAI, or COLM. NOT for simple copyediting or a non-research blog post. Runs the iterative",
+      "description": "Use when writing a research paper or generating a full paper draft — doctoral-level academic papers, thesis or dissertation-style manuscripts, literature reviews, and scholarly documents (12,000-15,000 words delivered as .docx). Covers the full pipel",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3769,9 +3276,9 @@
       "dir": "research-tools",
       "source_root": "~/.claude",
       "real_path": "~/.claude/skills/research-tools/SKILL.md",
-      "domain": "research/web",
+      "domain": "AI/ML/LLM",
       "is_meta": false,
-      "description": "Bundle of research tools: arXiv + blogwatcher + WARC + Polymarket. Use as a multi-source research toolkit. Triggers on \\\"research tools\\\", \\\"multi-source\\\", \\\"blogwatcher\\\", \\\"polymarket\\\".",
+      "description": "Use when user asks for a multi-source research workflow covering arXiv, RSS or blog monitoring, web archives, an LLM Wiki, Polymarket, MediaWiki, or resilient news gathering. NOT for a single specialized tool workflow or social-media posting. Provide",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3839,8 +3346,8 @@
     {
       "name": "scanning-docker-images-with-trivy",
       "dir": "scanning-docker-images-with-trivy",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/scanning-docker-images-with-trivy/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/scanning-docker-images-with-trivy/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
       "description": "Trivy is a comprehensive open-source vulnerability scanner by Aqua Security",
@@ -3849,10 +3356,22 @@
       "name_dir_mismatch": null
     },
     {
+      "name": "schwarm-ohne-barriere",
+      "dir": "schwarm-ohne-barriere",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/schwarm-ohne-barriere/SKILL.md",
+      "domain": "agents/orchestration",
+      "is_meta": true,
+      "description": "Use when dispatching a multi-agent swarm and wall-clock time matters — replaces the wave/barrier model with a dependency DAG, a ready-queue, a concurrent verify lane and an append-only claim ledger. NOT for single deterministic tasks or when the dele",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
       "name": "securing-container-registry-with-harbor",
       "dir": "securing-container-registry-with-harbor",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/securing-container-registry-with-harbor/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/securing-container-registry-with-harbor/SKILL.md",
       "domain": "security/audit",
       "is_meta": false,
       "description": "Harbor is an open-source container registry that provides security features",
@@ -3889,9 +3408,9 @@
       "dir": "security-code-checker",
       "source_root": "~/.claude",
       "real_path": "~/.claude/skills/security-code-checker/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
-      "description": "LLM-generated-code scanner — red flags, spyware patterns, prompt-injection detectors, supply-chain risks. Use on any code that was generated by an LLM before shipping. Triggers on \"LLM code scan\", \"spyware check\", \"supply-chain\", \"prompt injection in",
+      "domain": "agents/orchestration",
+      "is_meta": true,
+      "description": "Use when user asks to scan LLM-generated code for spyware, keylogging, credential theft, destructive behavior, hidden network access, or other red flags before execution. NOT for ordinary linting or a general style review of trusted code. Classifies ",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3924,7 +3443,7 @@
       "name": "self-improving",
       "dir": "self-improving",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/meta/self-improving/SKILL.md",
+      "real_path": "~/.claude/skills/self-improving/SKILL.md",
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Use when user asks for recording a non-trivial failure and its fix, learning from a user correction, capturing a discovered workaround or edge case, or preventing a repeated CI or tool mistake. NOT for logging trivial typos or saving stable user-prof",
@@ -3933,22 +3452,10 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "self-improving-agent",
-      "dir": "self-improving-agent",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/self-improving-agent/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Captures learnings, errors, and corrections to enable continuous improvement. Use when commands fail, user corrects you, missing features are requested, APIs fail, knowledge is outdated, or better approaches are discovered.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "session-handoff",
       "dir": "session-handoff",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/productivity/session-handoff/SKILL.md",
+      "real_path": "~/.claude/skills/session-handoff/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
       "description": "Use when user asks for creating an end-of-session handoff, preparing context for a model switch, recording active task state and open work, or preserving lessons and system status for the next session. NOT for starting a daily briefing or tracking tr",
@@ -3981,25 +3488,13 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "short-video-script",
-      "dir": "short-video-script",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/short-video-script/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Expert short video script writer for TikTok, Instagram Reels, YouTube Shorts, and Meta Ads. AI director specializing in 60-second high-conversion scripts with emotional hooks, counterintuitive reversals, and data-driven authority structures. Use when",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "simplify-code",
       "dir": "simplify-code",
       "source_root": "~/.claude",
       "real_path": "~/.claude/skills/simplify-code/SKILL.md",
       "domain": "agents/orchestration",
       "is_meta": true,
-      "description": "Parallel 3-agent cleanup of recent code changes. Use after a feature lands to clean up dead code, simplify, and align with conventions. Triggers on \"simplify\", \"cleanup\", \"tidy\", \"after the feature\".",
+      "description": "Use when cleaning up a recent code change through parallel readability, duplication, and correctness reviews, then applying only independently justified improvements. NOT for broad rewrites, feature development, or accepting overlapping agent edits w",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4080,10 +3575,22 @@
       "name": "skill-library-maintenance",
       "dir": "skill-library-maintenance",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/software-development/skill-library-maintenance/SKILL.md",
+      "real_path": "~/.claude/skills/skill-library-maintenance/SKILL.md",
       "domain": "zcode/tooling-meta",
       "is_meta": true,
-      "description": "Use when scanning, slimming, deduplicating, or health-checking skill libraries.",
+      "description": "Use when auditing or maintaining a whole skill library rather than one skill — finding monoliths over 500 lines, dead references, duplicate or near-duplicate skills, stale frontmatter, and orphaned support files. NOT for creating a skill (use skill-c",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "skill-library-update-pass",
+      "dir": "skill-library-update-pass",
+      "source_root": "~/.claude",
+      "real_path": "~/.claude/skills/skill-library-update-pass/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "Use when the user explicitly asks for a destructive mass-update of the skill library after a read-only audit — frontmatter hygiene pass, trigger-keyword polish, monolith split into routing-stub + sub-skills. NOT for single-skill edits (use the Edit t",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4104,10 +3611,10 @@
       "name": "skill-polisher",
       "dir": "skill-polisher",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/meta/skill-polisher/SKILL.md",
+      "real_path": "~/.claude/skills/skill-polisher/SKILL.md",
       "domain": "zcode/tooling-meta",
       "is_meta": true,
-      "description": "Use when running batch quality improvements on skills (frontmatter fixes, lint, dead-link cleanup).",
+      "description": "Use when running batch quality improvements on the skill library: frontmatter fixes, lint passes, dead-link cleanup, BOM/chmod bug remediation, or duplicate detection across skills. NOT for editing a single skill by hand, end-user skill usage, or cre",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4116,10 +3623,10 @@
       "name": "skill-reviewer",
       "dir": "skill-reviewer",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/meta/skill-reviewer/SKILL.md",
+      "real_path": "~/.claude/skills/skill-reviewer/SKILL.md",
       "domain": "agents/orchestration",
       "is_meta": true,
-      "description": "Structured quality + portability review of SKILL.md files and skill inventories. Triggers on \"review SKILL.md\", \"audit skill\", \"skill library audit\", \"skill inventory\", \"sub-skill proposal\", \"bundle proposal\", \"skill export readiness\", \"skill couplin",
+      "description": "Use when reviewing SKILL.md quality or portability — a single skill's structure and triggers, a library-wide audit, a bundle or sub-skill proposal, or export-readiness for the open skill format. NOT for editing, moving or installing skills; this is s",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4152,10 +3659,10 @@
       "name": "songwriting-and-ai-music",
       "dir": "songwriting-and-ai-music",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/creative/songwriting-and-ai-music/SKILL.md",
+      "real_path": "~/.claude/skills/songwriting-and-ai-music/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
-      "description": "Use when user asks for songwriting, lyrics, song structure, rhyme/meter patterns, Suno AI music prompts. NOT for audio engineering, mixing/mastering, or recording live instruments. Songwriting craft and Suno AI music prompts.",
+      "description": "Use when writing songs or lyrics, producing AI music with Suno or Udio, scoring a drama or trailer soundtrack, working in the HeartMula workflow, or writing in the German Schlager idiom. NOT for audio file editing, mixing and mastering, or speech syn",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4199,8 +3706,8 @@
     {
       "name": "stealth-web-scraping",
       "dir": "stealth-web-scraping",
-      "source_root": "~/.config/opencode",
-      "real_path": "~/.config/opencode/skills/agent-toolkit/stealth-web-scraping/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/cli/plugins/cache/my-agent-tools/agent-toolkit/0.6.0/skills/stealth-web-scraping/SKILL.md",
       "domain": "backend/database",
       "is_meta": false,
       "description": "Bypass bot detection and anti-scraping measures when browser automation is blocked. Covers CloakBrowser, undetected-chromedriver, and Firecrawl self-hosted as the three pillars: stealth browsers, patched drivers, and headless scraping-as-a-service.",
@@ -4233,30 +3740,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "structured-planner",
-      "dir": "structured-planner",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/structured-planner/SKILL.md",
-      "domain": "zcode/tooling-meta",
-      "is_meta": true,
-      "description": "Build a structured execution plan (phases, tasks, milestones, dependencies, risks) from a multi-step goal. First clarifies the goal/scope/constraints with the user, then produces a markdown plan file in the workspace AND a parallel TodoWrite task lis",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "sub-sub-workflow",
-      "dir": "sub-sub-workflow",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/orchestration/sub-sub-workflow/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Use when dispatching parent agents that spawn verifiable sub-subagents.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "subagent-context-budget-dispatch",
       "dir": "subagent-context-budget-dispatch",
       "source_root": "unknown",
@@ -4264,18 +3747,6 @@
       "domain": "agents/orchestration",
       "is_meta": true,
       "description": "Dispatch Explore + general-purpose subagents in parallel to keep main-session context lean.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "subagent-driven-development",
-      "dir": "subagent-driven-development",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/software-development/subagent-driven-development/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Use when user asks to execute an implementation plan through fresh delegate_task subagents with spec-compliance review, code-quality review, and final verification. NOT for direct coding without a plan or research-only work. Dispatches one implemente",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4317,25 +3788,13 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "superpower-10x",
-      "dir": "superpower-10x",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/superpower-10x/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Use when building software, planning features, debugging issues, or executing development workflows - enhances agent productivity 10x through systematic processes, automated workflows, and intelligent task orchestration",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "superpowers-zcode",
       "dir": "superpowers-zcode",
       "source_root": "unknown",
       "real_path": "~/.zcode/skills/superpowers-zcode/SKILL.md",
       "domain": "agents/orchestration",
       "is_meta": true,
-      "description": "ZCode-optimierter Superpowers-Master-Skill — orchestriert Brainstorming, Planning, TDD, Debugging und Review mit korrekten ZCode-Tools (Agent+subagent_type, TodoWrite, EnterPlanMode, AskUserQuestion). MUSS vor jeder nicht-trivialen Implementierung, j",
+      "description": "MUSS invoked werden vor jeder nicht-trivialen Implementierung, jedem Bugfix und jedem Feature. ZCode-Master-Orchestrator - verkettet automatisch using-superpowers -> brainstorming/systematic-debugging -> writing-plans -> Freigabe-Gate -> subagent-dri",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4415,11 +3874,11 @@
     {
       "name": "team",
       "dir": "team",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/team/SKILL.md",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/team/SKILL.md",
       "domain": "agents/orchestration",
       "is_meta": true,
-      "description": "Multi-agent team coordination — orchestrate multiple specialized agents on a single task. Use for complex multi-track problems where one agent's context is insufficient. Triggers on \"team mode\", \"parallel agents\", \"orchestrate\", \"multi-agent\".",
+      "description": "Pointer stub (2026-09-08 cleanup). Team-mode multi-agent dispatch decisions live in swarm-router now — load swarm-router for any inline-vs-team-vs-swarm routing question. Original team skill archived in 40-Archive/home-cleanup-2026-09-08/skills-retir",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4485,30 +3944,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "threejs-game-creator",
-      "dir": "threejs-game-creator",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/threejs-game-creator/SKILL.md",
-      "domain": "web/frontend",
-      "is_meta": false,
-      "description": "Create realistic 3D games with incredible graphics using Three.js. Use when users ask to create a game, build a 3D experience, make an interactive WebGL application, develop a browser game with impressive visuals, or request any type of Three.js game",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "tidy-folder",
-      "dir": "tidy-folder",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/tidy-folder/SKILL.md",
-      "domain": "devops/infra",
-      "is_meta": false,
-      "description": "Professional folder cleanup and organization assistant. Safely organizes and cleans up directories by scanning contents, recommending cleanup rules, creating mandatory backups before any operation, and using move-to-trash instead of delete. Supports ",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "todo-kanban-promotion",
       "dir": "todo-kanban-promotion",
       "source_root": "~/.claude",
@@ -4516,18 +3951,6 @@
       "domain": "agents/orchestration",
       "is_meta": true,
       "description": "Use when user asks for promoting durable session todos to Kanban, preserving work that must survive a chat session, assigning ownership and dependencies to deferred tasks, or moving follow-up work into a persistent queue. NOT for short-lived conversa",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "topic-tracker",
-      "dir": "topic-tracker",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/topic-tracker/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Tracks trending topics from user-input themes, searches latest sources, discovers recent trending topics, and generates high-quality long-form articles with fact-checking. Trigger keywords: track topic, trending, hot events, industry trends, news tra",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4617,30 +4040,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "ui-ux-designer",
-      "dir": "ui-ux-designer",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/ui-ux-designer/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Expert UI/UX design assistant for creating design systems, wireframes, prototypes, and accessible interfaces. Use for design specifications, component libraries, color palettes, typography systems, design tokens, accessibility audits, and HTML/CSS im",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "ui-ux-pro-max",
-      "dir": "ui-ux-pro-max",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/ui-ux-pro-max/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "UI/UX design intelligence expert for web and mobile applications. Use when designing interfaces, selecting color palettes, typography, visual styles, building landing pages, dashboards, or reviewing code for UX issues. Covers 50+ design styles, 97 co",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "user-profile-memory",
       "dir": "user-profile-memory",
       "source_root": "~/.claude",
@@ -4668,7 +4067,7 @@
       "name": "vault-architecture",
       "dir": "vault-architecture",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/note-taking/vault-architecture/SKILL.md",
+      "real_path": "~/.claude/skills/vault-architecture/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
       "description": "Use when user asks for structuring or expanding an Obsidian vault, creating Maps of Content, improving cross-links and note discoverability, running broad vault health checks, or designing daily-note or template workflows. NOT for editing one note or",
@@ -4728,7 +4127,7 @@
       "name": "verify-before-fix",
       "dir": "verify-before-fix",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/software-development/verify-before-fix/SKILL.md",
+      "real_path": "~/.claude/skills/verify-before-fix/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
       "description": "Use when an issue or bug catalog names files, lines, or patterns to fix and the user needs those claims verified before editing. NOT for vague bugs without concrete issue targets or for fixing every similar-looking pattern blindly. Maps the real repo",
@@ -4749,18 +4148,6 @@
       "name_dir_mismatch": "youtube-creator"
     },
     {
-      "name": "video-motion-analysis",
-      "dir": "video-motion-analysis",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/video-motion-analysis/SKILL.md",
-      "domain": "zcode/tooling-meta",
-      "is_meta": true,
-      "description": "Video motion analysis skill. Analyzes movements and poses in instructional videos, extracts keyframes, performs structured motion analysis, and generates annotated stickman action diagrams. Trigger keywords: analyze motion, motion analysis, pose anal",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "video-prompting",
       "dir": "video-prompting",
       "source_root": "~/.claude",
@@ -4768,42 +4155,6 @@
       "domain": "content/media",
       "is_meta": false,
       "description": "Use when user asks for writing model-specific AI video prompts, refining image-generation prompts, specifying camera, motion, lighting, or composition, or choosing an aspect ratio and generation mode. NOT for editing finished video footage or writing",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "video-story-generator",
-      "dir": "video-story-generator",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/video-story-generator/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Generates complete video stories from images or text. Supports flexible input (1-N images, pure text, or mixed), selectable duration (24/48/72s) and visual styles (Ghibli, Cyberpunk, Realistic, etc.). Handles script generation, subject reference imag",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "video-studio",
-      "dir": "video-studio",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/video-studio/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Generate AI-powered videos from text prompts or images using MiniMax video generation models. Use when users ask to generate a video, create a video from text, animate an image, make a short clip, produce AI video, text-to-video, image-to-video, or c",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "visual-content-generator",
-      "dir": "visual-content-generator",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/visual-content-generator/SKILL.md",
-      "domain": "zcode/tooling-meta",
-      "is_meta": true,
-      "description": "Professional visual content generation skill. Creates presentations (PDF + PPTX), infographics, charts, dashboards, timelines, flowcharts, mind maps, and all categories of visual content from scratch using image generation tools. Trigger keywords: sl",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4857,18 +4208,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "web-scraper",
-      "dir": "web-scraper",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/web-scraper/SKILL.md",
-      "domain": "research/web",
-      "is_meta": false,
-      "description": "Scrape, crawl, and extract data from websites. Use when users ask to scrape web pages, extract content, crawl websites, or collect data from the internet.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "web-stack",
       "dir": "web-stack",
       "source_root": "unknown",
@@ -4878,18 +4217,6 @@
       "description": "Routing für Web-Recherche auf dieser Workstation — welcher Dienst für Suche, Crawl/Extraktion, Browsen und Quick-Fetch (self-hosted SearXNG + Crawl4AI auf der GCP-VM, Playwright lokal, Z.ai/WebFetch als Cloud-Fallbacks). Nutzen, bevor WebSearch/WebFe",
       "mcp_server": null,
       "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "web_search",
-      "dir": "web_search",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/web_search/SKILL.md",
-      "domain": "research/web",
-      "is_meta": false,
-      "description": "Web search for current information, news, prices, recent changes. Use when freshness matters more than authority. Triggers on \"search\", \"current\", \"latest\", \"what's new\", \"news\".",
-      "mcp_server": "web-search-prime",
-      "mcp_note": "web_search_prime MCP",
       "name_dir_mismatch": null
     },
     {
@@ -4992,10 +4319,10 @@
       "name": "workflow-template",
       "dir": "workflow-template",
       "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/orchestration/workflow-template/SKILL.md",
+      "real_path": "~/.claude/skills/workflow-template/SKILL.md",
       "domain": "agents/orchestration",
       "is_meta": true,
-      "description": "Use when Basti wants a structured multi-agent plan for a complex task.",
+      "description": "Use when Basti needs a structured multi-agent plan for hardening, repository or CI work, security or CVE analysis, GreyScript, or Ollama operations. NOT for directly orchestrating workers, trivial single-step tasks, or domains without a suitable adap",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -5049,18 +4376,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "youtube-watcher",
-      "dir": "youtube-watcher",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/youtube-watcher/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Fetch and read transcripts from YouTube videos. Use when you need to summarize a video, answer questions about its content, or extract information from it.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "yuno-persona-portability",
       "dir": "yuno-persona-portability",
       "source_root": "~/.claude",
@@ -5103,7 +4418,7 @@
       "real_path": "~/.claude/skills/yuno-team-orchestrator/SKILL.md",
       "domain": "agents/orchestration",
       "is_meta": true,
-      "description": "Use when orchestrating Yunos 7-agent team for multi-domain tasks.",
+      "description": "Use when routing a multi-domain goal across Yuno's seven specialized agents, assigning clear ownership, or consolidating their verified deliverables. NOT for single-specialist tasks, duplicate parallel work, or accepting agent status reports without ",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -5128,6 +4443,18 @@
       "domain": "agents/orchestration",
       "is_meta": true,
       "description": "Use when user asks how to apply Basti’s working-style preferences, honest testing standard, recommendation-first decisions, concrete options, scope checks, or communication and documentation conventions. NOT for inventing preferences or overriding an",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "zcode-wiki",
+      "dir": "zcode-wiki",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/zcode-wiki/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "Use when maintaining, extending, querying, or linting the German ZCode reference wiki (\"Nachschlagewerk\") at ~/.zcode/workspace/default/zcode-wiki/ — triggers on \"zcode wiki\", \"wiki nachtragen\", \"wiki pflegen\", \"wiki ergänzen\", \"nachschlagewerk\", any",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
