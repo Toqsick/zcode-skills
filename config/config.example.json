@@ -36,6 +36,18 @@
       "hermes": {
         "type": "http",
         "url": "http://127.0.0.1:8643/mcp"
+      },
+      "github": {
+        "type": "stdio",
+        "command": "docker",
+        "args": [
+          "run",
+          "-i",
+          "--rm",
+          "-e",
+          "GITHUB_PERSONAL_ACCESS_TOKEN",
+          "toqsick/github-mcp-server:develop"
+        ]
       }
     }
   },

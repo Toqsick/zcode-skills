@@ -14,7 +14,7 @@ The per-server schema is **strict** — an unknown top-level key causes the serv
 
 **Critical:** `command` is a **string**, not an array. OpenCode-style `"command": ["npx", "-y", "pkg"]` will fail with `command.trim is not a function`. Use `"command": "npx"` + `"args": ["-y", "pkg"]`.
 
-## The two bugs that dropped all 5 servers (2026-07-23)
+## The two bugs that dropped all 5 original servers (2026-07-23)
 
 Before the fix, every session reported `"mcpServerCount":0`. Root causes:
 

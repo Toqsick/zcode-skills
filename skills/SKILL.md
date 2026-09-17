@@ -1,7 +1,7 @@
 ---
 name: skill-mcp-router
 description: >-
-  Skill + MCP routing agent for the local 412-skill library. Use when a task
+  Skill + MCP routing agent for the local skill library (re-count with `find -L ~/.zcode/skills -name SKILL.md | wc -l` — count drifts as source roots change). Use when a task
   needs the right skill AND the right MCP server resolved together — converts a
   raw request into a (skill, MCP server, filtered tools) triple with minimal
   token use via lazy tool discovery. Implements the 5-step intent->skill->server->
@@ -14,8 +14,9 @@ when_to_use: >
   upfront, or (c) you are operating in the Skill Routing Agent role and need
   the runtime data sources. Do NOT use for pure in-skill procedure with no
   external tool, or for choosing between models (use task-weight-routing).
-version: 1.0.0
-author: Toqsick
+version: 1.2.0
+platforms: [zcode]
+author: Basti
 license: MIT
 metadata:
   role: routing-agent
@@ -25,8 +26,16 @@ metadata:
     skill_to_mcp: registry/skill-to-mcp.csv
     mcp_config_template: config/config.example.json
 ---
-
 # Skill + MCP Router
+
+## Architecture context (skill-library source split)
+
+The skill library is aggregated from **3 source roots** into `~/.zcode/skills/` via a symlink farm:
+- `~/.claude/skills/` — primary source (~440 skills, the canonical copies)
+- `~/.config/opencode/skills/agent-toolkit/` — agent-toolkit bundle (~61 skills)
+- `~/.agents/skills/` — Yuno/third-party bundle (3 skills)
+
+Discovery (agent-side) always scans `~/.zcode/skills/` as the unified root. Absolute skill counts in this skill's prose may drift as the source roots change — re-count with `find -L ~/.zcode/skills -name SKILL.md | wc -l` rather than trusting hardcoded numbers.
 
 A routing layer that sits in front of the skill library and the MCP servers.
 It picks **one skill** (how) and **zero or one MCP server** (what), then lazily
@@ -45,9 +54,9 @@ magic. At the start of a routed task, load:
 
 | Placeholder | Source | What it provides |
 |---|---|---|
-| `{{agentSkills}}` | `registry/registry.json` | all 412 skills: `name`, `dir`, `source_root`, `domain`, `is_meta`, `mcp_server`, `name_dir_mismatch` |
-| `{{serverInstructions}}` | `config/config.example.json` | the 5 configured MCP servers (canonical schema) + their transport |
-| `{{workspaceRoot}}` | the session's CWD | typically `/home/bratan/ZCodeProject` |
+| `{{agentSkills}}` | `registry/registry.json` | indexed skills: `name`, `dir`, `source_root`, `domain`, `is_meta`, `mcp_server`, `name_dir_mismatch` |
+| `{{serverInstructions}}` | `config/config.example.json` | the six configured MCP servers (canonical schema) + their transport |
+| `{{workspaceRoot}}` | the session's CWD | never commit or assume a fixed workstation path |
 | `{{currentDate}}` | system date | for recency-sensitive routing |
 
 Static coupling table (the ~31 skills where matching the name IS the server
@@ -93,11 +102,11 @@ Resolve the server in this order:
 3. **None** — many skills (~380) are pure procedure with no external resource.
    Emit `[MCP_SERVER: none]`.
 
-Note the **live MCP layer** (`config.example.json`) has only 5 servers:
-`zai-mcp-server`, `web-search-prime`, `web-reader`, `zread`, `hermes`. Any
-other server name (linear, notion, supabase, github-MCP, blender…) is
-configured elsewhere or falls back to a native CLI — confirm availability
-before promising it.
+Note the **live MCP layer** (`config.example.json`) has six documented servers:
+`zai-mcp-server`, `web-search-prime`, `web-reader`, `zread`, `hermes`, and the
+optional `github` Docker MCP. Any other server name (linear, notion, supabase,
+blender…) is configured elsewhere or falls back to a native CLI — confirm
+availability before promising it.
 
 Emit `[MCP_SERVER: <name>]`.
 
@@ -139,12 +148,7 @@ Every routed response is structured:
 - Tool fails after 3 corrected retries → escalate with the error + next steps.
 
 ## Regenerating the data
-The registry is a snapshot. When the live library changes:
-```
-python3 scripts/generate_registry.py
-```
-Re-reads `~/.zcode/skills/` and rewrites `registry.json`, `routing.yaml`,
-`skill-to-mcp.csv`. Commit the result.
+The registry is a snapshot. When the live library changes, the snapshot is regenerated from the live `~/.zcode/skills/` tree to rewrite `registry.json`, `routing.yaml`, and `skill-to-mcp.csv`. The generator script (`scripts/generate_registry.py`) is not currently shipped alongside this SKILL.md — if it is absent, regenerate manually by re-scanning the skill roots and committing the updated snapshot files.
 
 ## Relationship to existing routing skills
 This skill is a **superset** that calls into the others as components:
