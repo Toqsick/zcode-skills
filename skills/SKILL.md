@@ -1,7 +1,7 @@
 ---
 name: skill-mcp-router
 description: >-
-  Skill + MCP routing agent for the local 412-skill library. Use when a task
+  Skill + MCP routing agent for the local skill library (re-count with `find -L ~/.zcode/skills -name SKILL.md | wc -l` — count drifts as source roots change). Use when a task
   needs the right skill AND the right MCP server resolved together — converts a
   raw request into a (skill, MCP server, filtered tools) triple with minimal
   token use via lazy tool discovery. Implements the 5-step intent->skill->server->
@@ -27,6 +27,15 @@ metadata:
     mcp_config_template: config/config.example.json
 ---
 # Skill + MCP Router
+
+## Architecture context (skill-library source split)
+
+The skill library is aggregated from **3 source roots** into `~/.zcode/skills/` via a symlink farm:
+- `~/.claude/skills/` — primary source (~440 skills, the canonical copies)
+- `~/.config/opencode/skills/agent-toolkit/` — agent-toolkit bundle (~61 skills)
+- `~/.agents/skills/` — Yuno/third-party bundle (3 skills)
+
+Discovery (agent-side) always scans `~/.zcode/skills/` as the unified root. Absolute skill counts in this skill's prose may drift as the source roots change — re-count with `find -L ~/.zcode/skills -name SKILL.md | wc -l` rather than trusting hardcoded numbers.
 
 A routing layer that sits in front of the skill library and the MCP servers.
 It picks **one skill** (how) and **zero or one MCP server** (what), then lazily
@@ -139,12 +148,7 @@ Every routed response is structured:
 - Tool fails after 3 corrected retries → escalate with the error + next steps.
 
 ## Regenerating the data
-The registry is a snapshot. When the live library changes:
-```
-python3 scripts/generate_registry.py
-```
-Re-reads `~/.zcode/skills/` and rewrites `registry.json`, `routing.yaml`,
-`skill-to-mcp.csv`. Commit the result.
+The registry is a snapshot. When the live library changes, the snapshot is regenerated from the live `~/.zcode/skills/` tree to rewrite `registry.json`, `routing.yaml`, and `skill-to-mcp.csv`. The generator script (`scripts/generate_registry.py`) is not currently shipped alongside this SKILL.md — if it is absent, regenerate manually by re-scanning the skill roots and committing the updated snapshot files.
 
 ## Relationship to existing routing skills
 This skill is a **superset** that calls into the others as components:

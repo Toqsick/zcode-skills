@@ -1,49 +1,25 @@
 {
   "_generated": "2026-07-23",
   "_source": "~/.zcode/skills (symlink farm, 412 entries)",
-  "_count": 410,
+  "_count": 426,
   "_domain_counts": {
-    "agents/orchestration": 98,
-    "zcode/tooling-meta": 34,
-    "content/media": 105,
-    "web/frontend": 13,
-    "backend/database": 52,
-    "devops/infra": 40,
-    "AI/ML/LLM": 8,
-    "productivity/notes": 15,
-    "research/web": 5,
-    "security/audit": 6,
+    "agents/orchestration": 99,
+    "zcode/tooling-meta": 51,
+    "content/media": 95,
+    "web/frontend": 14,
+    "backend/database": 48,
+    "devops/infra": 56,
+    "AI/ML/LLM": 4,
+    "productivity/notes": 10,
+    "research/web": 4,
+    "security/audit": 12,
     "gaming/greyhack": 6,
-    "communication": 3,
-    "writing/docs": 5,
-    "other": 20
+    "communication": 2,
+    "writing/docs": 2,
+    "other": 23
   },
-  "_mcp_coupled_count": 30,
+  "_mcp_coupled_count": 19,
   "skills": [
-    {
-      "name": "1password",
-      "dir": "1password",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/security/1password/SKILL.md",
-      "domain": "AI/ML/LLM",
-      "is_meta": false,
-      "description": "Use when user asks to set up or use the 1Password CLI, authenticate with a service account, desktop app, or Connect server, read a secret or OTP, inject credentials, or run a command with secret environment variables. NOT for plaintext secret storage",
-      "mcp_server": "1password",
-      "mcp_note": "1Password MCP",
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "3-statement-model",
-      "dir": "3-statement-model",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/finance/3-statement-model/SKILL.md",
-      "domain": "AI/ML/LLM",
-      "is_meta": false,
-      "description": "Use when user asks for a 3-statement financial model, integrated IS/BS/CF Excel build, finance template completion. NOT for single-statement models, accounting, or non-financial spreadsheets. Build fully-integrated 3-statement models (IS, BS, CF) in ",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
     {
       "name": "3d-web-dev-specialist",
       "dir": "3d-web-dev-specialist",
@@ -189,15 +165,99 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "airtable",
-      "dir": "airtable",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/productivity/airtable/SKILL.md",
+      "name": "analyzing-docker-container-forensics",
+      "dir": "analyzing-docker-container-forensics",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-docker-container-forensics/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
-      "description": "Use when user asks for listing Airtable bases or table schemas, creating, reading, updating, or deleting Airtable records, filtering and sorting Airtable data, or upserting records through the REST API. NOT for spreadsheet analysis outside Airtable o",
-      "mcp_server": "airtable",
-      "mcp_note": "Airtable API",
+      "description": "Investigate compromised Docker containers by analyzing images, layers,",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "analyzing-linux-audit-logs-for-intrusion",
+      "dir": "analyzing-linux-audit-logs-for-intrusion",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-linux-audit-logs-for-intrusion/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Uses the Linux Audit framework (auditd) with ausearch and aureport utilities",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "analyzing-linux-kernel-rootkits",
+      "dir": "analyzing-linux-kernel-rootkits",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-linux-kernel-rootkits/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Detect kernel-level rootkits in Linux memory dumps using Volatility3",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "analyzing-linux-system-artifacts",
+      "dir": "analyzing-linux-system-artifacts",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-linux-system-artifacts/SKILL.md",
+      "domain": "content/media",
+      "is_meta": false,
+      "description": "Examine Linux system artifacts including auth logs, cron jobs, shell",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "analyzing-network-packets-with-scapy",
+      "dir": "analyzing-network-packets-with-scapy",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-network-packets-with-scapy/SKILL.md",
+      "domain": "other",
+      "is_meta": false,
+      "description": "Craft, send, sniff, and dissect network packets using Scapy for protocol",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "analyzing-network-traffic-with-wireshark",
+      "dir": "analyzing-network-traffic-with-wireshark",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-network-traffic-with-wireshark/SKILL.md",
+      "domain": "other",
+      "is_meta": false,
+      "description": "Captures and analyzes network packet data using Wireshark and tshark",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "analyzing-persistence-mechanisms-in-linux",
+      "dir": "analyzing-persistence-mechanisms-in-linux",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-persistence-mechanisms-in-linux/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Detect and analyze Linux persistence mechanisms including crontab entries,",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "analyzing-sbom-for-supply-chain-vulnerabilities",
+      "dir": "analyzing-sbom-for-supply-chain-vulnerabilities",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/analyzing-sbom-for-supply-chain-vulnerabilities/SKILL.md",
+      "domain": "security/audit",
+      "is_meta": false,
+      "description": "Parses Software Bill of Materials (SBOM) in CycloneDX and SPDX JSON",
+      "mcp_server": null,
+      "mcp_note": null,
       "name_dir_mismatch": null
     },
     {
@@ -241,33 +301,9 @@
       "dir": "app-builder",
       "source_root": "~/.claude",
       "real_path": "~/.claude/skills/app-builder/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
       "description": "Full-stack application builder that creates web apps, APIs, mobile apps, and more from natural language requests. Use when the user wants to build a new application, add features to existing projects, scaffold a project structure, or plan an implemen",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "apple-notes",
-      "dir": "apple-notes",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/apple/apple-notes/SKILL.md",
-      "domain": "productivity/notes",
-      "is_meta": false,
-      "description": "Use when user asks for apple notes, Prerequisites, When to Use, When NOT to Use. NOT for Android, Windows. Manages Apple Notes via the memo CLI on macOS.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "apple-reminders",
-      "dir": "apple-reminders",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/apple/apple-reminders/SKILL.md",
-      "domain": "productivity/notes",
-      "is_meta": false,
-      "description": "Use when user asks for apple reminders, Prerequisites, When to Use, When NOT to Use. NOT for Android, Windows. Manages Apple Reminders via the remindctl CLI on macOS.",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -357,18 +393,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "audiocraft-audio-generation",
-      "dir": "audiocraft",
-      "source_root": "~/.agents",
-      "real_path": "~/.agents/skills/audiocraft/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "axolotl",
       "dir": "axolotl",
       "source_root": "~/.claude",
@@ -376,18 +400,6 @@
       "domain": "backend/database",
       "is_meta": false,
       "description": "Use when user asks for fine-tuning an LLM with Axolotl, writing Axolotl YAML configuration, configuring LoRA, DPO, or GRPO training, or debugging Axolotl runs or APIs. NOT for serving inference endpoints or optimizing prompts without weight updates. ",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "b2b-lead-generation",
-      "dir": "b2b-lead-generation",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/b2b-lead-generation/SKILL.md",
-      "domain": "other",
-      "is_meta": false,
-      "description": "B2B Lead Generation Assistant. Activated when users say 'I want to sell XXX', 'Help me find customers', 'Analyze competitors', or 'Discover opportunities'. Automatically identifies competitors, discovers potential customers through connection mining,",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -441,18 +453,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "bioinformatics",
-      "dir": "bioinformatics",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/research/bioinformatics/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
-      "description": "Use when user asks about bioinformatics, genomics, sequencing, variant calling, gene expression, single-cell analysis, protein structure, or computational biology workflows. NOT for generic data analysis or wet-lab protocols. Acts as a gateway to on-",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "blackbox",
       "dir": "blackbox",
       "source_root": "~/.claude",
@@ -501,13 +501,13 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "brainstorming",
-      "dir": "brainstorming",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/brainstorming/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "name": "browser-computer-use-learnings",
+      "dir": "browser-computer-use-learnings",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/browser-computer-use-learnings/SKILL.md",
+      "domain": "agents/orchestration",
+      "is_meta": true,
+      "description": "Use when doing browser automation, web scraping, screenshots, web-UI testing, or desktop/GUI control on this Zorin machine — when choosing between web_extract/crawl4ai, playwright MCP, browser-use node_repl, cua-driver, or xdotool, when running brows",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -544,18 +544,6 @@
       "domain": "content/media",
       "is_meta": false,
       "description": "Create beautiful visual art, posters, and design pieces using advanced design philosophy. Use when users ask to create a poster, piece of art, visual design, artistic poster, canvas artwork, or any static visual composition. Create original visual de",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "ceo-assistant",
-      "dir": "ceo-assistant",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/ceo-assistant/SKILL.md",
-      "domain": "AI/ML/LLM",
-      "is_meta": false,
-      "description": "A master AI assistant for CEOs and executives. Helps with end-to-end planning, executing, and completing tasks and projects, including goal clarification, strategic planning, decision-making support, task decomposition, execution guidance, and progre",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -837,6 +825,18 @@
       "name_dir_mismatch": null
     },
     {
+      "name": "coding-lenses",
+      "dir": "coding-lenses",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/coding-lenses/SKILL.md",
+      "domain": "backend/database",
+      "is_meta": false,
+      "description": "Use when the user wants a (just finished) project reworked, refined or audited with per-domain intensity levels — e.g. \"lenses code quality 3, security 6, polish 8\", \"mach das Projekt nochmal mit security 6 und polish 8\", \"linse codequalität 3\", \"aud",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
       "name": "coding-pipeline-orchestrator",
       "dir": "coding-pipeline-orchestrator",
       "source_root": "~/.claude",
@@ -868,6 +868,18 @@
       "domain": "other",
       "is_meta": false,
       "description": "Use when the user asks about or wants to create a commit, or says 'commit this' / 'commit message' / 'git commit'. Provides guidance on crafting clear, conventional git commits.",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "companion-clis",
+      "dir": "companion-clis",
+      "source_root": "~/.agents",
+      "real_path": "~/.agents/skills/companion-clis/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Companion CLIs for Runpod workflows — HuggingFace, GitHub, Docker, and AWS.",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -1077,6 +1089,18 @@
       "name_dir_mismatch": null
     },
     {
+      "name": "debugging-patterns",
+      "dir": "debugging-patterns",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/debugging-patterns/SKILL.md",
+      "domain": "backend/database",
+      "is_meta": false,
+      "description": "Concrete debugging tactics for error classification, library API verification, and multi-location bug fixes. Supplements systematic-debugging with pattern-level techniques.",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
       "name": "deep-model-evaluation",
       "dir": "deep-model-evaluation",
       "source_root": "~/.claude",
@@ -1113,6 +1137,18 @@
       "name_dir_mismatch": null
     },
     {
+      "name": "defensive-programming",
+      "dir": "defensive-programming",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/defensive-programming/SKILL.md",
+      "domain": "backend/database",
+      "is_meta": false,
+      "description": "Defensive programming practices to prevent bugs and increase code resilience",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
       "name": "delegation-anti-patterns",
       "dir": "delegation-anti-patterns",
       "source_root": "~/.claude",
@@ -1120,6 +1156,18 @@
       "domain": "agents/orchestration",
       "is_meta": true,
       "description": "Use when user asks for Hermes delegation pitfalls, parallel-scout anti-patterns, false-positive-flood prevention, race-condition avoidance. NOT for actual delegation mechanics or worker spawning (use kanban-system-health). Known anti-patterns in Herm",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "deploying-osquery-for-endpoint-monitoring",
+      "dir": "deploying-osquery-for-endpoint-monitoring",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/deploying-osquery-for-endpoint-monitoring/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Deploys and configures osquery for real-time endpoint monitoring using",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -1156,6 +1204,102 @@
       "domain": "gaming/greyhack",
       "is_meta": false,
       "description": "Use when exploring a desktop application or game window for reconnaissance.",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "detecting-aws-credential-exposure-with-trufflehog",
+      "dir": "detecting-aws-credential-exposure-with-trufflehog",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-aws-credential-exposure-with-trufflehog/SKILL.md",
+      "domain": "backend/database",
+      "is_meta": false,
+      "description": "Detecting exposed AWS credentials in source code repositories, CI/CD",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "detecting-beaconing-patterns-with-zeek",
+      "dir": "detecting-beaconing-patterns-with-zeek",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-beaconing-patterns-with-zeek/SKILL.md",
+      "domain": "other",
+      "is_meta": false,
+      "description": "Performs statistical analysis of Zeek conn.log connection intervals",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "detecting-container-escape-attempts",
+      "dir": "detecting-container-escape-attempts",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-container-escape-attempts/SKILL.md",
+      "domain": "other",
+      "is_meta": false,
+      "description": "Container escape is a critical attack technique where an adversary breaks",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "detecting-container-runtime-threats-with-falco",
+      "dir": "detecting-container-runtime-threats-with-falco",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-container-runtime-threats-with-falco/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Write and deploy Falco rules with the modern eBPF driver to detect container",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "detecting-dns-exfiltration-with-dns-query-analysis",
+      "dir": "detecting-dns-exfiltration-with-dns-query-analysis",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-dns-exfiltration-with-dns-query-analysis/SKILL.md",
+      "domain": "other",
+      "is_meta": false,
+      "description": "Detect data exfiltration through DNS tunneling by analyzing query entropy,",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "detecting-network-anomalies-with-zeek",
+      "dir": "detecting-network-anomalies-with-zeek",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-network-anomalies-with-zeek/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Deploys and configures Zeek (formerly Bro) network security monitor",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "detecting-port-scanning-with-fail2ban",
+      "dir": "detecting-port-scanning-with-fail2ban",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-port-scanning-with-fail2ban/SKILL.md",
+      "domain": "other",
+      "is_meta": false,
+      "description": "Configures Fail2ban with custom filters and actions to detect port scanning",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "detecting-rootkit-activity",
+      "dir": "detecting-rootkit-activity",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/detecting-rootkit-activity/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Detects rootkit presence on compromised systems by identifying hidden",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -1216,18 +1360,6 @@
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Use when user asks for Docker installation on Ubuntu Server, fresh Ubuntu Docker setup, Docker GPG key + repo setup. NOT for Docker Compose patterns, Kubernetes, or non-Ubuntu distros. Step-by-step guide for Docker installation on Ubuntu Server (fres",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "docx",
-      "dir": "docx",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/productivity/docx/SKILL.md",
-      "domain": "writing/docs",
-      "is_meta": false,
-      "description": "Create, read, edit Word .docx documents and templates.",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -1317,18 +1449,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "Excel / XLSX",
-      "dir": "excel-xlsx",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/excel-xlsx/SKILL.md",
-      "domain": "security/audit",
-      "is_meta": false,
-      "description": "Build and manage Microsoft Excel spreadsheets with precision. Create, modify, and audit workbooks featuring formulas, formatting, and data integrity while preserving templates. Use when working with Excel files, .xlsx, .xlsm, .csv, or .tsv formats wh",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": "Excel / XLSX"
-    },
-    {
       "name": "explanatory-output",
       "dir": "explanatory-output",
       "source_root": "~/.config/opencode",
@@ -1365,15 +1485,15 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "feishu-webhook",
-      "dir": "feishu-webhook",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/feishu-webhook/SKILL.md",
-      "domain": "content/media",
+      "name": "fetching-blocked-web-downloads",
+      "dir": "fetching-blocked-web-downloads",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/fetching-blocked-web-downloads/SKILL.md",
+      "domain": "web/frontend",
       "is_meta": false,
-      "description": "Feishu/Lark Webhook messaging assistant. Send messages to Feishu groups via Webhook: plain text, rich text (Post), interactive cards with complex layouts, buttons, charts, tables, and images. Trigger keywords: feishu, lark, webhook, send message, car",
-      "mcp_server": "feishu",
-      "mcp_note": "Feishu/Lark webhook",
+      "description": "Use when a web download or page fetch is blocked or misbehaves — anti-bot pages (403/429, \"Vercel Security Checkpoint\", Cloudflare \"Just a moment\", vimm.net \"you shall not pass\" 553-byte HTML), Google Drive virus-scan interstitial instead of the file",
+      "mcp_server": null,
+      "mcp_note": null,
       "name_dir_mismatch": null
     },
     {
@@ -1401,18 +1521,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "findmy",
-      "dir": "findmy",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/apple/findmy/SKILL.md",
-      "domain": "devops/infra",
-      "is_meta": false,
-      "description": "Use when user asks for findmy, Find My (Apple), Prerequisites, When to Use. NOT for Windows, Linux. Tracks Apple devices and AirTags via FindMy.app screenshot analysis.",
-      "mcp_server": "findmy",
-      "mcp_note": "Apple FindMy",
-      "name_dir_mismatch": null
-    },
-    {
       "name": "firecrawl-web",
       "dir": "firecrawl-web",
       "source_root": "~/.claude",
@@ -1422,6 +1530,18 @@
       "description": "Use when user asks for Firecrawl web scraping, structured data extraction, Markdown conversion of URLs, screenshots via Firecrawl. NOT for hand-rolled scraping with curl/bs4 or non-web sources. Web-scraping, screenshots, and structured data extractio",
       "mcp_server": "firecrawl",
       "mcp_note": "Firecrawl MCP",
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "flash",
+      "dir": "flash",
+      "source_root": "~/.agents",
+      "real_path": "~/.agents/skills/flash/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "runpod-flash — code-first serverless: write Python locally, run it on remote Runpod GPUs/CPUs with `flash dev` (hot-reload + live worker logs), then `flash deploy`. Use for @Endpoint/@remote functions, resource config, and debugging flash deployments",
+      "mcp_server": null,
+      "mcp_note": null,
       "name_dir_mismatch": null
     },
     {
@@ -1492,6 +1612,18 @@
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Use when user asks for game library management, archiving Steam libraries, optimizing game storage, .csd/.csm backups. NOT for playing games or installing individual games. Manage, archive, and optimize game libraries on Linux.",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "gcp-server-admin",
+      "dir": "gcp-server-admin",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/gcp-server-admin/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "Admin-Skill für GCP cloud-server VM. Verwaltet fail2ban, UFW, Hermes systemd-Service, Logrotate, Idle-Auto-Shutdown (2h), Telegram-Notifications und 6 systemd-Timer Wartungs-Jobs. Setzt SSH-MCP (ssh-gcp) oder direkten SSH-Zugang voraus.",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -1833,13 +1965,37 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "heartmula",
-      "dir": "heartmula",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/heartmula/SKILL.md",
-      "domain": "content/media",
+      "name": "hardening-docker-containers-for-production",
+      "dir": "hardening-docker-containers-for-production",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/hardening-docker-containers-for-production/SKILL.md",
+      "domain": "devops/infra",
       "is_meta": false,
-      "description": "Suno-like song generation with lyrics and tags. Use for full-song generation with vocals in multiple languages. Triggers on \"suno-like\", \"heartmula\", \"full song generation\", \"lyrics + music\".",
+      "description": "Hardening Docker containers for production involves applying security",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "hardening-docker-daemon-configuration",
+      "dir": "hardening-docker-daemon-configuration",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/hardening-docker-daemon-configuration/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Harden the Docker daemon by configuring daemon.json with user namespace",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "hardening-linux-endpoint-with-cis-benchmark",
+      "dir": "hardening-linux-endpoint-with-cis-benchmark",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/hardening-linux-endpoint-with-cis-benchmark/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Hardens Linux endpoints using CIS Benchmark recommendations for Ubuntu,",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -1981,8 +2137,8 @@
       "dir": "hermes-plan-mode-recovery",
       "source_root": "~/.claude",
       "real_path": "~/.claude/skills/orchestration/hermes-plan-mode-recovery/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
       "description": "Use when user asks for recovering a stuck Hermes Desktop plan mode, diagnosing an unresponsive Plan button, backing up and removing a malformed plan file, or restarting Desktop after plan-state corruption. NOT for improving the content of a valid pla",
       "mcp_server": null,
       "mcp_note": null,
@@ -2097,6 +2253,18 @@
       "name_dir_mismatch": null
     },
     {
+      "name": "hunting-advanced-persistent-threats",
+      "dir": "hunting-advanced-persistent-threats",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/hunting-advanced-persistent-threats/SKILL.md",
+      "domain": "other",
+      "is_meta": false,
+      "description": "Proactively hunts for Advanced Persistent Threat (APT) activity within",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
       "name": "hybrid-swarm-evaluation",
       "dir": "hybrid-swarm-evaluation",
       "source_root": "~/.claude",
@@ -2145,15 +2313,51 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "imessage",
-      "dir": "imessage",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/apple/imessage/SKILL.md",
-      "domain": "productivity/notes",
+      "name": "implementing-container-image-minimal-base-with-distroless",
+      "dir": "implementing-container-image-minimal-base-with-distroless",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/implementing-container-image-minimal-base-with-distroless/SKILL.md",
+      "domain": "content/media",
       "is_meta": false,
-      "description": "Use when user asks for imessage, Prerequisites, When to Use, When NOT to Use. NOT for Android, Windows. Sends and receives iMessages and SMS via the imsg CLI on macOS.",
-      "mcp_server": "imessage",
-      "mcp_note": "macOS iMessage bridge",
+      "description": "Reduce container attack surface by building application images on Google",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "implementing-kubernetes-pod-security-standards",
+      "dir": "implementing-kubernetes-pod-security-standards",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/implementing-kubernetes-pod-security-standards/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Pod Security Standards (PSS) define three levels of security policies",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "implementing-network-segmentation-with-firewall-zones",
+      "dir": "implementing-network-segmentation-with-firewall-zones",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/implementing-network-segmentation-with-firewall-zones/SKILL.md",
+      "domain": "content/media",
+      "is_meta": false,
+      "description": "Design and implement network segmentation using firewall security zones,",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "implementing-secret-scanning-with-gitleaks",
+      "dir": "implementing-secret-scanning-with-gitleaks",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/implementing-secret-scanning-with-gitleaks/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "This skill covers implementing Gitleaks for detecting and preventing",
+      "mcp_server": null,
+      "mcp_note": null,
       "name_dir_mismatch": null
     },
     {
@@ -2200,18 +2404,6 @@
       "domain": "other",
       "is_meta": false,
       "description": "Turn any concept into stunning interactive web animations. When users want to understand science principles, mechanical structures, math concepts, or any abstract idea, generate interactive Web demos with a shareable URL. Triggers: 演示, 可视化, 动画, visua",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "job-hunter",
-      "dir": "job-hunter",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/job-hunter/SKILL.md",
-      "domain": "writing/docs",
-      "is_meta": false,
-      "description": "Comprehensive job hunting and career assistant. Handles the full job search lifecycle: profile collection, multi-platform job discovery, relevance scoring, resume optimization, cover letter writing, application preparation, application tracking, inte",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -2322,18 +2514,6 @@
       "description": "Use when the user is learning, says 'I want to learn X' / 'teach me Y' / 'tutorial' / 'guide me'. Provides structured learning paths with progressive complexity.",
       "mcp_server": null,
       "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "linear",
-      "dir": "linear",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/productivity/linear/SKILL.md",
-      "domain": "devops/infra",
-      "is_meta": false,
-      "description": "Use when user asks for listing or searching Linear issues, creating or updating Linear issues, managing projects, teams, states, labels, or assignees, or querying Linear through GraphQL. NOT for GitHub issue management or editing a generic local task",
-      "mcp_server": "linear",
-      "mcp_note": "Linear GraphQL API; requires LINEAR_API_KEY",
       "name_dir_mismatch": null
     },
     {
@@ -2481,15 +2661,15 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "maps",
-      "dir": "maps",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/productivity/maps/SKILL.md",
-      "domain": "communication",
-      "is_meta": false,
-      "description": "Use when user asks for geocoding a place name, reverse-geocoding coordinates, finding nearby points of interest, calculating routes, travel time, or directions, or looking up a timezone. NOT for live traffic guarantees or indoor navigation. Uses Open",
-      "mcp_server": "maps",
-      "mcp_note": "Google Maps API",
+      "name": "margincall",
+      "dir": "margincall",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/margincall/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "Steuere das Spiel MarginCall (Steam 4961460, Finanz-Terminal-Simulation) auf dem Linux-Desktop per Tastatur, Maus und OCR — Screens lesen und navigieren, Orders platzieren/ändern/stornieren, Portfolio- und Status-Reports erstellen, Firma und Leben ma",
+      "mcp_server": null,
+      "mcp_note": null,
       "name_dir_mismatch": null
     },
     {
@@ -2637,18 +2817,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "mirofish",
-      "dir": "mirofish",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/software-development/mirofish/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Use when user asks to set up, run, monitor, or generate reports from a MiroFish simulation based on a whitepaper, research document, or report. NOT for generic multi-agent simulations or starting an unrequested watcher. Covers distillation, project a",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "mlops-suite",
       "dir": "mlops-suite",
       "source_root": "~/.claude",
@@ -2656,6 +2824,18 @@
       "domain": "content/media",
       "is_meta": false,
       "description": "Use when user asks for choosing an MLOps tool for a task, comparing vLLM with llama.cpp, finding workflows for Hub, experiment tracking, audio, segmentation, or evaluation, or routing a broad ML operations request. NOT for deep troubleshooting of one",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "mmx-lane",
+      "dir": "mmx-lane",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/mmx-lane/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "Use BEFORE executing or delegating any task when deciding the execution lane — routes light/trivial/bulk generation and digestion work automatically to MiniMax via `mmx text chat` (Token-Plan-Flatrate) and keeps hard/agentic work on GLM. Triggers on ",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -2841,30 +3021,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "notebooklm-bridge",
-      "dir": "notebooklm-bridge",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/notebooklm-bridge/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Use when user asks for managing NotebookLM notebooks and sources, asking citation-grounded questions over uploaded material, generating audio briefings or artifacts, or troubleshooting nblm authentication. NOT for general Google Drive editing or ungr",
-      "mcp_server": "notebooklm",
-      "mcp_note": "NotebookLM MCP",
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "notion",
-      "dir": "notion",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/productivity/notion/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
-      "description": "Use when user asks for searching Notion pages, reading or creating pages as Markdown, querying or mutating Notion databases, using the ntn CLI or Notion API, or managing Notion workers. NOT for Obsidian filesystem notes or general website content man",
-      "mcp_server": "notion",
-      "mcp_note": "Notion API",
-      "name_dir_mismatch": null
-    },
-    {
       "name": "nous-multi-lane-routing",
       "dir": "nous-multi-lane-routing",
       "source_root": "~/.claude",
@@ -2908,18 +3064,6 @@
       "domain": "backend/database",
       "is_meta": false,
       "description": "Use when user asks for removing refusal behavior from an open-weight LLM, abliterating or uncensoring a local model, analyzing refusal directions, or choosing an OBLITERATUS method and parameters. NOT for jailbreaking a hosted API or ordinary supervi",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "obsidian",
-      "dir": "obsidian",
-      "source_root": "~/.agents",
-      "real_path": "~/.agents/skills/obsidian/SKILL.md",
-      "domain": "zcode/tooling-meta",
-      "is_meta": true,
-      "description": "Router for Obsidian-related work in an Obsidian vault — Obsidian Flavored Markdown, Bases (.base) files, and the Obsidian CLI. Use when the user is writing or editing Obsidian notes (.md), creating or maintaining database-like Bases views (.base), or",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3033,6 +3177,18 @@
       "name_dir_mismatch": null
     },
     {
+      "name": "open-source-extraction",
+      "dir": "open-source-extraction",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/open-source-extraction/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Extract specific packages from large open-source monorepos and adapt them for standalone use. Covers dependency mapping, stripping cloud/infra deps, creating shim packages, and iterative build fixing.",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
       "name": "openclaw-assistant",
       "dir": "openclaw-assistant",
       "source_root": "~/.claude",
@@ -3054,18 +3210,6 @@
       "description": "Use when user asks for opencode, OpenCode CLI, When to Use, Prerequisites. NOT for C# projects, not coding. Delegates coding to OpenCode CLI with Ollama local model integration.",
       "mcp_server": null,
       "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "openhue",
-      "dir": "openhue",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/smart-home/openhue/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Use when user asks to control Philips Hue lights, rooms, brightness, colors, scenes, or presets through the OpenHue CLI, or needs its installation and command syntax. NOT for general smart-home automation or non-Hue brands. Provides terminal workflow",
-      "mcp_server": "openhue",
-      "mcp_note": "Philips Hue API",
       "name_dir_mismatch": null
     },
     {
@@ -3117,13 +3261,157 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "pdf",
-      "dir": "pdf-anthropic",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/pdf-anthropic/SKILL.md",
+      "name": "performing-authenticated-vulnerability-scan",
+      "dir": "performing-authenticated-vulnerability-scan",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-authenticated-vulnerability-scan/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Authenticated (credentialed) vulnerability scanning uses valid system",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "performing-container-security-scanning-with-trivy",
+      "dir": "performing-container-security-scanning-with-trivy",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-container-security-scanning-with-trivy/SKILL.md",
+      "domain": "content/media",
+      "is_meta": false,
+      "description": "Scan container images, filesystems, and Kubernetes manifests for vulnerabilities,",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "performing-disk-forensics-investigation",
+      "dir": "performing-disk-forensics-investigation",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-disk-forensics-investigation/SKILL.md",
+      "domain": "security/audit",
+      "is_meta": false,
+      "description": "Conducts disk forensics investigations using forensic imaging, file",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "performing-docker-bench-security-assessment",
+      "dir": "performing-docker-bench-security-assessment",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-docker-bench-security-assessment/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Docker Bench for Security is an open-source script that checks dozens",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "performing-endpoint-forensics-investigation",
+      "dir": "performing-endpoint-forensics-investigation",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-endpoint-forensics-investigation/SKILL.md",
+      "domain": "security/audit",
+      "is_meta": false,
+      "description": "Performs digital forensics investigation on compromised endpoints including",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "performing-file-carving-with-foremost",
+      "dir": "performing-file-carving-with-foremost",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-file-carving-with-foremost/SKILL.md",
+      "domain": "content/media",
+      "is_meta": false,
+      "description": "Recover files from disk images and unallocated space using Foremost's",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "performing-linux-log-forensics-investigation",
+      "dir": "performing-linux-log-forensics-investigation",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-linux-log-forensics-investigation/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Perform forensic investigation of Linux system logs including syslog,",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "performing-log-analysis-for-forensic-investigation",
+      "dir": "performing-log-analysis-for-forensic-investigation",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-log-analysis-for-forensic-investigation/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Collect, parse, and correlate system, application, and security logs",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "performing-malware-triage-with-yara",
+      "dir": "performing-malware-triage-with-yara",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-malware-triage-with-yara/SKILL.md",
       "domain": "backend/database",
       "is_meta": false,
-      "description": "Use when user asks for reading or extracting text from PDFs, merging or splitting PDF files, extracting PDF tables, or running OCR on scanned pages. NOT for editing wording in an existing PDF or converting a document to EPUB. Selects appropriate Pyth",
+      "description": "Performs rapid malware triage and classification using YARA rules to",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "performing-memory-forensics-with-volatility3",
+      "dir": "performing-memory-forensics-with-volatility3",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-memory-forensics-with-volatility3/SKILL.md",
+      "domain": "security/audit",
+      "is_meta": false,
+      "description": "Analyze volatile memory dumps using Volatility 3 to extract running processes,",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "performing-network-forensics-with-wireshark",
+      "dir": "performing-network-forensics-with-wireshark",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-network-forensics-with-wireshark/SKILL.md",
+      "domain": "security/audit",
+      "is_meta": false,
+      "description": "Capture and analyze network traffic using Wireshark and tshark to reconstruct",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "performing-nist-csf-maturity-assessment",
+      "dir": "performing-nist-csf-maturity-assessment",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/performing-nist-csf-maturity-assessment/SKILL.md",
+      "domain": "security/audit",
+      "is_meta": false,
+      "description": "The NIST Cybersecurity Framework (CSF) 2.0, released in February 2024,",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "perplexity",
+      "dir": "perplexity",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/perplexity/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "Perplexity Pro in der Simplexity-Desktop-App steuern (CDP/Playwright): normale Suche mit Top-Modellen, Vertiefte Recherche (Deep Research), Spaces/Projects-Verwaltung (Beschreibung, Anweisungen, Brain). Trigger: Perplexity-Suche/Recherche, Deep Resea",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3133,21 +3421,9 @@
       "dir": "perplexity-followup-plan",
       "source_root": "~/.claude",
       "real_path": "~/.claude/skills/creative/perplexity-followup-plan/SKILL.md",
-      "domain": "research/web",
-      "is_meta": false,
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
       "description": "Use when building structured Perplexity Deep Research prompts with cross-validation.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "petdex",
-      "dir": "petdex",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/productivity/petdex/SKILL.md",
-      "domain": "other",
-      "is_meta": false,
-      "description": "Use when user asks for installing a Hermes mascot, previewing or changing the active pet, disabling petdex, or diagnosing why an animated pet is not visible. NOT for managing real pets or changing unrelated terminal themes. Covers prerequisites, masc",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3181,8 +3457,8 @@
       "dir": "plan",
       "source_root": "~/.claude",
       "real_path": "~/.claude/skills/plan/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
       "description": "Create structured plans before execution. Use for complex tasks, multi-step work, or when the user wants a written plan first. Triggers on \"plan\", \"design\", \"before we start\", \"how should we approach\".",
       "mcp_server": null,
       "mcp_note": null,
@@ -3193,8 +3469,8 @@
       "dir": "plan-glm",
       "source_root": "~/.claude",
       "real_path": "~/.claude/skills/software-development/plan-glm/SKILL.md",
-      "domain": "AI/ML/LLM",
-      "is_meta": false,
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
       "description": "Use when user asks for a GLM 5.2 implementation plan, invokes `/plan-glm`, or wants a dedicated planner subprocess without changing the current session model. NOT for executing the plan or switching the active session model. Extracts context, spawns ",
       "mcp_server": null,
       "mcp_note": null,
@@ -3205,9 +3481,9 @@
       "dir": "plan-mode",
       "source_root": "~/.claude",
       "real_path": "~/.claude/skills/plan-mode/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
-      "description": "Plan-before-execution discipline — discuss approach before implementation. Use when multiple valid approaches exist, when the user is unsure what they want, or when a wrong first move is expensive. Triggers on \"plan first\", \"before we code\", \"what's ",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "Plan-before-execution discipline — discuss approach before implementation. Use when multiple valid approaches exist, when the user is unsure what they want, or when a wrong first move is expensive. Triggers on \"plan first\", \"before we implement\", \"wh",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3237,18 +3513,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "polymarket",
-      "dir": "polymarket",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/research/polymarket/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
-      "description": "Use when user asks about Polymarket prediction markets, event probabilities, prices, order books, market history, or read-only REST API queries. NOT for placing bets or trading, and not for general financial advice. Parses the public market, pricing,",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "popular-web-designs",
       "dir": "popular-web-designs",
       "source_root": "~/.claude",
@@ -3256,30 +3520,6 @@
       "domain": "zcode/tooling-meta",
       "is_meta": true,
       "description": "Use when user asks for a clone of Stripe/Linear/Vercel design systems, real-world design references, production-grade HTML/CSS. NOT for original brand-new design systems or sketch mockups (use sketch skill). 54 real design systems (Stripe, Linear, Ve",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "powerpoint",
-      "dir": "powerpoint",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/productivity/powerpoint/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Use when user asks for creating a PowerPoint deck, reading or editing PPTX slides, working with slide notes or templates, extracting PowerPoint text, or performing slide design QA. NOT for editing PDFs or creating a web page instead of slides. Suppor",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "pptx-generator",
-      "dir": "pptx-generator",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/pptx-generator/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Generate, edit, and read PowerPoint presentations. Create from scratch with PptxGenJS (cover, TOC, content, section divider, summary slides), edit existing PPTX via XML workflows, or extract text with markitdown. Triggers: PPT, PPTX, PowerPoint, pres",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3465,6 +3705,30 @@
       "name_dir_mismatch": null
     },
     {
+      "name": "recovering-deleted-files-with-photorec",
+      "dir": "recovering-deleted-files-with-photorec",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/recovering-deleted-files-with-photorec/SKILL.md",
+      "domain": "content/media",
+      "is_meta": false,
+      "description": "Recover deleted files from disk images and storage media using PhotoRec's",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "reference-architecture-research",
+      "dir": "reference-architecture-research",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/reference-architecture-research/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Systematic deep-architecture research of reference repositories before greenfield implementation — clone, audit, feature parity, ADRs, provenance, skeleton.",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
       "name": "report-synthesis",
       "dir": "report-synthesis",
       "source_root": "~/.claude",
@@ -3472,18 +3736,6 @@
       "domain": "agents/orchestration",
       "is_meta": true,
       "description": "Use when user asks for combining three or more subagent reports, writing a coherent master report, mapping overlaps and cross-references across findings, or building a consolidated resource index. NOT for summarizing only one or two reports or mergin",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "requesting-code-review",
-      "dir": "requesting-code-review",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/requesting-code-review/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
-      "description": "Pre-commit review workflow — security scan, quality gates, auto-fix where safe. Use to set up automated review before commits land. Triggers on \"pre-commit\", \"automated review\", \"PR template\", \"review workflow\".",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3519,31 +3771,91 @@
       "real_path": "~/.claude/skills/research-tools/SKILL.md",
       "domain": "research/web",
       "is_meta": false,
-      "description": "Bundle of research tools: arXiv + blogwatcher + WARC + Polymarket. Use as a multi-source research toolkit. Triggers on \"research tools\", \"multi-source\", \"blogwatcher\", \"polymarket\".",
+      "description": "Bundle of research tools: arXiv + blogwatcher + WARC + Polymarket. Use as a multi-source research toolkit. Triggers on \\\"research tools\\\", \\\"multi-source\\\", \\\"blogwatcher\\\", \\\"polymarket\\\".",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
     },
     {
-      "name": "saas-niche-finder",
-      "dir": "saas-niche-finder",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/saas-niche-finder/SKILL.md",
+      "name": "runpod",
+      "dir": "runpod",
+      "source_root": "~/.agents",
+      "real_path": "~/.agents/skills/runpod/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "Start here for any Runpod task — running GPU/CPU pods, deploying serverless endpoints, templates, network volumes, building images, or understanding how Runpod works. Routes to the right skill (runpod-mcp, runpodctl, flash, companion-clis, runpod-usa",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "runpod-mcp",
+      "dir": "runpod-mcp",
+      "source_root": "~/.agents",
+      "real_path": "~/.agents/skills/runpod-mcp/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "Manage Runpod infrastructure — pods, serverless endpoints, jobs, templates, network volumes, container-registry auth, GPU/CPU catalog, and billing — via the Runpod MCP server's structured tool calls. Use when the Runpod MCP tools (create-pod, list-en",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "runpod-migrate",
+      "dir": "runpod-migrate",
+      "source_root": "~/.agents",
+      "real_path": "~/.agents/skills/runpod-migrate/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "Migrate a codebase from the Runpod GraphQL API or REST v1 to REST v2 — inventory which parts use which API version, rewrite the call sites, flag breaking changes, and verify. Use when someone asks to move to v2, asks what v2 would change, or asks whi",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "runpod-usage",
+      "dir": "runpod-usage",
+      "source_root": "~/.agents",
+      "real_path": "~/.agents/skills/runpod-usage/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "How Runpod works and how to work it — pods vs serverless, GPU/VRAM selection, storage, building a container, networking, plus the agentic pod development loop (provision → ssh-exec → set up → poll readiness) and on-pod install hygiene (uv/apt). Use t",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "runpodctl",
+      "dir": "runpodctl",
+      "source_root": "~/.agents",
+      "real_path": "~/.agents/skills/runpodctl/SKILL.md",
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
+      "description": "Runpod CLI for managing GPU/CPU workloads from the terminal — pods, serverless endpoints, templates, network volumes, Hub deploys, models, SSH, and file transfer (send/receive). Use for terminal/CI/scripting, Hub browse/deploy, SSH setup, `doctor`, o",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "scanning-docker-images-with-trivy",
+      "dir": "scanning-docker-images-with-trivy",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/scanning-docker-images-with-trivy/SKILL.md",
       "domain": "content/media",
       "is_meta": false,
-      "description": "Discovers profitable SaaS niches and generates validated business ideas. Use when finding untapped market opportunities, analyzing competitor gaps, identifying customer pain points, or generating SaaS product ideas backed by market research. Trigger ",
+      "description": "Trivy is a comprehensive open-source vulnerability scanner by Aqua Security",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
     },
     {
-      "name": "sales-power-map",
-      "dir": "sales-power-map",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/sales-power-map/SKILL.md",
-      "domain": "other",
+      "name": "securing-container-registry-with-harbor",
+      "dir": "securing-container-registry-with-harbor",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/securing-container-registry-with-harbor/SKILL.md",
+      "domain": "security/audit",
       "is_meta": false,
-      "description": "B2B sales intelligence assistant: parse vague sales intent, discover target companies, mine org structures, build decision-maker Power Maps with contact info and flanking strategies. Trigger on: 'sell', 'find customers', 'power map', 'decision makers",
+      "description": "Harbor is an open-source container registry that provides security features",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3633,18 +3945,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "seo-geo-optimization-expert",
-      "dir": "seo-geo-optimization-expert",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/seo-geo-optimization-expert/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Comprehensive SEO and GEO (Generative Engine Optimization) expert. Use when the user asks to: audit content quality, EEAT score, CORE-EEAT audit, audit domain authority, CITE audit, domain trust score, optimize for AI, get cited by ChatGPT, AI optimi",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "session-handoff",
       "dir": "session-handoff",
       "source_root": "~/.claude",
@@ -3673,8 +3973,8 @@
       "dir": "session-state-audit",
       "source_root": "~/.claude",
       "real_path": "~/.claude/skills/software-development/session-state-audit/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
       "description": "Use when a session is paused mid-work, a component changed across sessions, or the user asks for a structured audit or clean handoff before resuming. NOT for a fresh-session plan or ordinary bug debugging. Reconstructs state, re-tests claims, evaluat",
       "mcp_server": null,
       "mcp_note": null,
@@ -3741,18 +4041,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "skill-creator",
-      "dir": "skill-creator",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/meta/skill-creator/SKILL.md",
-      "domain": "zcode/tooling-meta",
-      "is_meta": true,
-      "description": "Use when user asks for creating a new Hermes skill, modifying an existing skill, saving a successful workflow for reuse, extracting a skill from conversation history, or installing a marketplace skill. NOT for writing ordinary project documentation o",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "skill-duplicate-audit",
       "dir": "skill-duplicate-audit",
       "source_root": "~/.claude",
@@ -3804,10 +4092,10 @@
       "name": "skill-mcp-router",
       "dir": "skill-mcp-router",
       "source_root": "unknown",
-      "real_path": "~/ZCodeProject/zcode-skills/skills/SKILL.md",
+      "real_path": "~/30-Library/ZCodeProject/zcode-skills/skills/SKILL.md",
       "domain": "agents/orchestration",
       "is_meta": true,
-      "description": "Skill + MCP routing agent for the local 412-skill library. Use when a task needs the right skill AND the right MCP server resolved together — converts a raw request into a (skill, MCP server, filtered tools) triple with minimal token use via lazy too",
+      "description": "Skill + MCP routing agent for the local skill library (re-count with `find -L ~/.zcode/skills -name SKILL.md | wc -l` — count drifts as source roots change). Use when a task needs the right skill AND the right MCP server resolved together — converts ",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3849,18 +4137,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "social-media-trend-search",
-      "dir": "social-media-trend-search",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/social-media-trend-search/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Cross-platform social media trending content search assistant. Searches Instagram, TikTok, Pinterest, and Twitter(X) for trending AI videos, viral content, and topic hotspots. Supports custom keyword searches, CSV export, and Feishu webhook push. Tri",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "songsee",
       "dir": "songsee",
       "source_root": "~/.claude",
@@ -3897,18 +4173,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "spotify",
-      "dir": "spotify",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/media/spotify/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Use when user asks for playing or pausing Spotify, searching for tracks, artists, or albums, managing queues and playlists, or transferring playback between devices. NOT for other music services or editing local audio files. Controls Spotify playback",
-      "mcp_server": "spotify",
-      "mcp_note": "Spotify API",
-      "name_dir_mismatch": null
-    },
-    {
       "name": "sqlite-forensic-diff",
       "dir": "sqlite-forensic-diff",
       "source_root": "~/.claude",
@@ -3928,6 +4192,18 @@
       "domain": "web/frontend",
       "is_meta": false,
       "description": "Use when user asks to build or debug a real-time browser dashboard using native Server-Sent Events, token-protected EventSource, REST calls, reconnect backoff, or live audit logs. NOT for WebSocket-only applications or backend-only streaming. Provide",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "stealth-web-scraping",
+      "dir": "stealth-web-scraping",
+      "source_root": "~/.config/opencode",
+      "real_path": "~/.config/opencode/skills/agent-toolkit/stealth-web-scraping/SKILL.md",
+      "domain": "backend/database",
+      "is_meta": false,
+      "description": "Bypass bot detection and anti-scraping measures when browser automation is blocked. Covers CloakBrowser, undetected-chromedriver, and Firecrawl self-hosted as the three pillars: stealth browsers, patched drivers, and headless scraping-as-a-service.",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -3961,8 +4237,8 @@
       "dir": "structured-planner",
       "source_root": "~/.claude",
       "real_path": "~/.claude/skills/structured-planner/SKILL.md",
-      "domain": "productivity/notes",
-      "is_meta": false,
+      "domain": "zcode/tooling-meta",
+      "is_meta": true,
       "description": "Build a structured execution plan (phases, tasks, milestones, dependencies, risks) from a multi-step goal. First clarifies the goal/scope/constraints with the user, then produces a markdown plan file in the workspace AND a parallel TodoWrite task lis",
       "mcp_server": null,
       "mcp_note": null,
@@ -3976,6 +4252,18 @@
       "domain": "agents/orchestration",
       "is_meta": true,
       "description": "Use when dispatching parent agents that spawn verifiable sub-subagents.",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "subagent-context-budget-dispatch",
+      "dir": "subagent-context-budget-dispatch",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/subagent-context-budget-dispatch/SKILL.md",
+      "domain": "agents/orchestration",
+      "is_meta": true,
+      "description": "Dispatch Explore + general-purpose subagents in parallel to keep main-session context lean.",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4041,6 +4329,18 @@
       "name_dir_mismatch": null
     },
     {
+      "name": "superpowers-zcode",
+      "dir": "superpowers-zcode",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/superpowers-zcode/SKILL.md",
+      "domain": "agents/orchestration",
+      "is_meta": true,
+      "description": "ZCode-optimierter Superpowers-Master-Skill — orchestriert Brainstorming, Planning, TDD, Debugging und Review mit korrekten ZCode-Tools (Agent+subagent_type, TodoWrite, EnterPlanMode, AskUserQuestion). MUSS vor jeder nicht-trivialen Implementierung, j",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
       "name": "swarm-router",
       "dir": "swarm-router",
       "source_root": "~/.claude",
@@ -4101,18 +4401,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "systematic-debugging",
-      "dir": "systematic-debugging",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/software-development/systematic-debugging/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
-      "description": "Use when user asks to debug a reproducible or flaky software failure, trace a root cause, isolate a minimal reproduction, test ranked hypotheses, or verify a fix without regressions. NOT for guessing, shotgun patches, or symptom-only one-line fixes. ",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "task-weight-routing",
       "dir": "task-weight-routing",
       "source_root": "~/.claude",
@@ -4132,18 +4420,6 @@
       "domain": "agents/orchestration",
       "is_meta": true,
       "description": "Multi-agent team coordination — orchestrate multiple specialized agents on a single task. Use for complex multi-track problems where one agent's context is insufficient. Triggers on \"team mode\", \"parallel agents\", \"orchestrate\", \"multi-agent\".",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "teams-meeting-pipeline",
-      "dir": "teams-meeting-pipeline",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/productivity/teams-meeting-pipeline/SKILL.md",
-      "domain": "productivity/notes",
-      "is_meta": false,
-      "description": "Use when user asks for Microsoft Teams meeting summaries, transcripts, recordings, action items, Graph subscriptions, or pipeline status. NOT for generic calendar management or unrelated meeting tools. Operates the Hermes Teams meeting-summary CLI fo",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4180,18 +4456,6 @@
       "domain": "agents/orchestration",
       "is_meta": true,
       "description": "Use when user needs a Telegram clarification for a decision, confirmation, missing information, or approval of a dangerous action. NOT for tasks Yuno can autonomously orchestrate or routine progress updates. Sends a pause-and-resume Telegram DM using",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "test-driven-development",
-      "dir": "test-driven-development",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/software-development/test-driven-development/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
-      "description": "Use when enforcing TDD with RED-GREEN-REFACTOR cycle and tests before code.",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4240,42 +4504,6 @@
       "domain": "devops/infra",
       "is_meta": false,
       "description": "Professional folder cleanup and organization assistant. Safely organizes and cleans up directories by scanning contents, recommending cleanup rules, creating mandatory backups before any operation, and using move-to-trash instead of delete. Supports ",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "tiktok-business-self-improve",
-      "dir": "tiktok-business-self-improve",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/orchestration/tiktok-business-self-improve/SKILL.md",
-      "domain": "agents/orchestration",
-      "is_meta": true,
-      "description": "Use when running the self-improve loop for the Yuno anon TikTok business project.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "tiktok-design-assistant",
-      "dir": "tiktok-design-assistant",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/creative/tiktok-design-assistant/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Use when user asks for TikTok brand systems, Canva CSV exports, TikTok pitch variants, TikTok creator assets. NOT for YouTube/Instagram assets or full marketing strategy. Generate TikTok brand systems, Canva CSVs, pitch variants.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "tiktok-slideshow-design",
-      "dir": "tiktok-slideshow-design",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/creative/tiktok-slideshow-design/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Use when user asks for TikTok slideshow design, faceless TikTok content, anonymous-account pipelines, slideshow 6-phase workflow. NOT for personal-branded TikTok or live-action video production. TikTok slideshow design pipeline for faceless/anonymous",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4605,30 +4833,6 @@
       "name_dir_mismatch": null
     },
     {
-      "name": "waydroid-setup",
-      "dir": "waydroid-setup",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/linux-system/waydroid-setup/SKILL.md",
-      "domain": "devops/infra",
-      "is_meta": false,
-      "description": "Use when user asks for Waydroid Android container setup on Linux, Waydroid install/repair lifecycle, Android-in-Linux container. NOT for full Android emulation, Genymotion, or non-Linux Android. Full lifecycle for Waydroid Android containers on Linux",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "wear-os-health-api-boundaries",
-      "dir": "wear-os-health-api-boundaries",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/research/wear-os-health-api-boundaries/SKILL.md",
-      "domain": "content/media",
-      "is_meta": false,
-      "description": "Use when user asks about Wear OS or Galaxy Watch sensor access, Health Connect, AHS, SensorManager, Samsung Health SDKs, permissions, background collection, or open-source apps using those APIs. NOT for general smartwatch health advice or unrelated A",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
       "name": "web-archive-research",
       "dir": "web-archive-research",
       "source_root": "~/.claude",
@@ -4660,6 +4864,18 @@
       "domain": "research/web",
       "is_meta": false,
       "description": "Scrape, crawl, and extract data from websites. Use when users ask to scrape web pages, extract content, crawl websites, or collect data from the internet.",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
+      "name": "web-stack",
+      "dir": "web-stack",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/web-stack/SKILL.md",
+      "domain": "devops/infra",
+      "is_meta": false,
+      "description": "Routing für Web-Recherche auf dieser Workstation — welcher Dienst für Suche, Crawl/Extraktion, Browsen und Quick-Fetch (self-hosted SearXNG + Crawl4AI auf der GCP-VM, Playwright lokal, Z.ai/WebFetch als Cloud-Fallbacks). Nutzen, bevor WebSearch/WebFe",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4737,6 +4953,18 @@
       "name_dir_mismatch": null
     },
     {
+      "name": "winboat",
+      "dir": "winboat",
+      "source_root": "unknown",
+      "real_path": "~/.zcode/skills/winboat/SKILL.md",
+      "domain": "backend/database",
+      "is_meta": false,
+      "description": "Steuere die Winboat Windows-10-VM (Audials/Applikationen) headless vom Host aus — CLI-Referenz ~/bin/winboat, Guest-API, Timer-Workflows, Troubleshooting. Nutzen bei Aufgaben zu Winboat, Audials-Aufnahmen, Windows-Apps auf dem Zorin-Host.",
+      "mcp_server": null,
+      "mcp_note": null,
+      "name_dir_mismatch": null
+    },
+    {
       "name": "wine-electron-apps",
       "dir": "wine-electron-apps",
       "source_root": "~/.claude",
@@ -4768,30 +4996,6 @@
       "domain": "agents/orchestration",
       "is_meta": true,
       "description": "Use when Basti wants a structured multi-agent plan for a complex task.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "writing-plans",
-      "dir": "writing-plans",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/software-development/writing-plans/SKILL.md",
-      "domain": "backend/database",
-      "is_meta": false,
-      "description": "Use when writing implementation plans with bite-sized tasks, paths, and code stubs.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "xlsx",
-      "dir": "xlsx",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/productivity/xlsx/SKILL.md",
-      "domain": "writing/docs",
-      "is_meta": false,
-      "description": "Create, read, edit Excel .xlsx spreadsheets and CSVs.",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
@@ -4852,18 +5056,6 @@
       "domain": "content/media",
       "is_meta": false,
       "description": "Fetch and read transcripts from YouTube videos. Use when you need to summarize a video, answer questions about its content, or extract information from it.",
-      "mcp_server": null,
-      "mcp_note": null,
-      "name_dir_mismatch": null
-    },
-    {
-      "name": "yuanbao",
-      "dir": "yuanbao",
-      "source_root": "~/.claude",
-      "real_path": "~/.claude/skills/yuanbao/SKILL.md",
-      "domain": "other",
-      "is_meta": false,
-      "description": "Use when user asks to interact with a Yuanbao group, @mention a member, query group information or membership, or send a Yuanbao direct message. NOT for other messaging gateways or the generic `send_message` path. Uses the gateway’s automatic text de",
       "mcp_server": null,
       "mcp_note": null,
       "name_dir_mismatch": null
